@@ -51,52 +51,52 @@ def load_ontology():
             pass
 
         # Rooms
-        # class LivingRoom(Room):
-        #     pass
+        class LivingRoom(Room):
+            pass
 
-        # class Bedroom(Room):
-        #     pass
+        class Bedroom(Room):
+            pass
 
-        # class Kitchen(Room):
-        #     pass
+        class Kitchen(Room):
+            pass
 
-        # class DiningRoom(Room):
-        #     pass
+        class DiningRoom(Room):
+            pass
 
         class LectureRoom(Room):
             pass
 
-        class LivingRoom(Room):
-            pass
+        # class LivingRoom(Room):
+        #     pass
 
 
         # Classification rules
 
         # TODO:
-        # LivingRoom.equivalent_to.append(
-        #     Room
-        #     & contains.some(Cup)
-        #     & contains.some(TV)
-        # )
+        LivingRoom.equivalent_to.append(
+            Room
+            & contains.some(Cup)
+            & contains.some(TV)
+        )
 
-        # # Bedroom: requires a bed
-        # Bedroom.equivalent_to.append(
-        #     Room
-        #     & contains.some(Bed)
-        # )
+        # Bedroom: requires a bed
+        Bedroom.equivalent_to.append(
+            Room
+            & contains.some(Bed)
+        )
 
-        # # Kitchen: requires a fridge
-        # Kitchen.equivalent_to.append(
-        #     Room
-        #     & contains.some(Fridge)
-        # )
+        # Kitchen: requires a fridge
+        Kitchen.equivalent_to.append(
+            Room
+            & contains.some(Fridge)
+        )
 
-        # # Dining room: requires a dining table and a chair
-        # DiningRoom.equivalent_to.append(
-        #     Room
-        #     & contains.some(DiningTable)
-        #     & contains.some(Chair)
-        # )
+        # Dining room: requires a dining table and a chair
+        DiningRoom.equivalent_to.append(
+            Room
+            & contains.some(DiningTable)
+            & contains.some(Chair)
+        )
 
         LectureRoom.equivalent_to.append(
             Room
@@ -110,17 +110,17 @@ def load_ontology():
             )
         )
 
-        LivingRoom.equivalent_to.append(
-            Room
-            & (
-                (
-                    contains.some(DiningTable)
-                    & contains.some(Chair)
-                    & contains.some(PottedPlant)
-                )
-                | contains.some(Sofa)
-                | contains.some(Microwave)
-            )
-        )
+        # LivingRoom.equivalent_to.append(
+        #     Room
+        #     & (
+        #         (
+        #             contains.some(DiningTable)
+        #             & contains.some(Chair)
+        #             & contains.some(PottedPlant)
+        #         )
+        #         | contains.some(Sofa)
+        #         | contains.some(Microwave)
+        #     )
+        # )
 
     return onto
