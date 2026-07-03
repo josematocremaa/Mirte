@@ -1,0 +1,1 @@
+/home/mirte/mirte_ws/build/orbbec_camera/ament_cmake_environment_hooks/local_setup.sh

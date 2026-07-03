@@ -1,0 +1,1 @@
+/home/mirte/mirte_ws/src/mirte-ros-packages/mirte_moveit_config/launch/warehouse_db.launch.py

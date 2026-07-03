@@ -1,0 +1,1 @@
+/home/mirte/mirte_ws/build/mirte_bringup/ament_cmake_core/mirte_bringupConfig-version.cmake

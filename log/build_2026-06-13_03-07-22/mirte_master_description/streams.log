@@ -1,0 +1,60 @@
+[0.017s] Invoking command in '/home/mirte/mirte_ws/build/mirte_master_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mirte/mirte_ws/build/mirte_master_description -- -j4 -l4
+[0.028s] gmake: the '-j' option requires a positive integer argument
+[0.054s] Invoked command in '/home/mirte/mirte_ws/build/mirte_master_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mirte/mirte_ws/build/mirte_master_description -- -j4 -l4
+[0.062s] Invoking command in '/home/mirte/mirte_ws/build/mirte_master_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mirte/mirte_ws/build/mirte_master_description
+[0.066s] -- Install configuration: "Release"
+[0.068s] -- Execute custom install script
+[0.068s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//launch/rviz.launch.xml
+[0.068s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//urdf/arm.xacro
+[0.068s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//urdf/flag.xacro
+[0.068s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//urdf/lidar.xacro
+[0.068s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//urdf/mirte_master.xacro
+[0.068s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//urdf/mirte_master_base.gazebo.xacro
+[0.068s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//urdf/orbbec_astra_plus_pro.xacro
+[0.068s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//urdf/ros2_control.xacro
+[0.068s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//urdf/ultrasonic.xacro
+[0.068s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//urdf/wheel.gazebo.xacro
+[0.068s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//urdf/wheel.xacro
+[0.068s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/Gripper.STL
+[0.068s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/_Gripper_r.STL
+[0.068s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/_gripper_link_l.STL
+[0.068s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/_gripper_link_r.STL
+[0.068s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/arm_Elbow.STL
+[0.068s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/arm_Rot.STL
+[0.069s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/arm_Shoulder.STL
+[0.069s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/arm_Wrist.STL
+[0.069s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/cam_front.STL
+[0.070s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/depth_cam.STL
+[0.070s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/flag.STL
+[0.071s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/frame_link.STL
+[0.073s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/gripper_finger_l.STL
+[0.073s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/gripper_finger_r.STL
+[0.073s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/lidar.STL
+[0.073s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/orbbec_astra.stl
+[0.073s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/screen.STL
+[0.073s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/ultrasonic_bl.STL
+[0.073s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/ultrasonic_br.STL
+[0.073s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/ultrasonic_fl.STL
+[0.073s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/ultrasonic_fr.STL
+[0.073s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/wheel_left.STL
+[0.073s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/wheel_right.STL
+[0.073s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//config/control_master.yaml
+[0.073s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//config/joint_names_mirte_master.yaml
+[0.073s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//config/mirte_base_control.yaml
+[0.073s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//config/mirte_diff_drive.yaml
+[0.073s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_master_description/share/ament_index/resource_index/package_run_dependencies/mirte_master_description
+[0.073s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_master_description/share/ament_index/resource_index/parent_prefix_path/mirte_master_description
+[0.073s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description/environment/ament_prefix_path.sh
+[0.073s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description/environment/ament_prefix_path.dsv
+[0.074s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description/environment/path.sh
+[0.074s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description/environment/path.dsv
+[0.074s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description/local_setup.bash
+[0.075s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description/local_setup.sh
+[0.075s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description/local_setup.zsh
+[0.075s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description/local_setup.dsv
+[0.075s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description/package.dsv
+[0.089s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_master_description/share/ament_index/resource_index/packages/mirte_master_description
+[0.089s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description/cmake/mirte_master_descriptionConfig.cmake
+[0.090s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description/cmake/mirte_master_descriptionConfig-version.cmake
+[0.090s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description/package.xml
+[0.093s] Invoked command in '/home/mirte/mirte_ws/build/mirte_master_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mirte/mirte_ws/build/mirte_master_description

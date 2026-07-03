@@ -1,0 +1,41 @@
+[0.014s] Invoking command in '/home/mirte/mirte_ws/build/mirte_moveit_config': CMAKE_PREFIX_PATH=/home/mirte/mirte_ws/install/mirte_master_description:/home/mirte/mirte_ws/install/mirte_bringup:/home/mirte/mirte_ws/install/web_video_server:/home/mirte/mirte_ws/install/orbbec_description:/home/mirte/mirte_ws/install/orbbec_camera:/home/mirte/mirte_ws/install/orbbec_camera_msgs:/home/mirte/mirte_ws/install/mirte_zenoh_setup:/home/mirte/mirte_ws/install/mirte_pioneer_description:/home/mirte/mirte_ws/install/mirte_moveit_config:/home/mirte/mirte_ws/install/mirte_fastdds_discovery_setup:/home/mirte/mirte_ws/install/mirte_test:/opt/ros/humble /usr/bin/cmake --build /home/mirte/mirte_ws/build/mirte_moveit_config -- -j4 -l4
+[0.023s] gmake: the '-j' option requires a positive integer argument
+[0.060s] Invoked command in '/home/mirte/mirte_ws/build/mirte_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/mirte/mirte_ws/install/mirte_master_description:/home/mirte/mirte_ws/install/mirte_bringup:/home/mirte/mirte_ws/install/web_video_server:/home/mirte/mirte_ws/install/orbbec_description:/home/mirte/mirte_ws/install/orbbec_camera:/home/mirte/mirte_ws/install/orbbec_camera_msgs:/home/mirte/mirte_ws/install/mirte_zenoh_setup:/home/mirte/mirte_ws/install/mirte_pioneer_description:/home/mirte/mirte_ws/install/mirte_moveit_config:/home/mirte/mirte_ws/install/mirte_fastdds_discovery_setup:/home/mirte/mirte_ws/install/mirte_test:/opt/ros/humble /usr/bin/cmake --build /home/mirte/mirte_ws/build/mirte_moveit_config -- -j4 -l4
+[0.060s] Invoking command in '/home/mirte/mirte_ws/build/mirte_moveit_config': CMAKE_PREFIX_PATH=/home/mirte/mirte_ws/install/mirte_master_description:/home/mirte/mirte_ws/install/mirte_bringup:/home/mirte/mirte_ws/install/web_video_server:/home/mirte/mirte_ws/install/orbbec_description:/home/mirte/mirte_ws/install/orbbec_camera:/home/mirte/mirte_ws/install/orbbec_camera_msgs:/home/mirte/mirte_ws/install/mirte_zenoh_setup:/home/mirte/mirte_ws/install/mirte_pioneer_description:/home/mirte/mirte_ws/install/mirte_moveit_config:/home/mirte/mirte_ws/install/mirte_fastdds_discovery_setup:/home/mirte/mirte_ws/install/mirte_test:/opt/ros/humble /usr/bin/cmake --install /home/mirte/mirte_ws/build/mirte_moveit_config
+[0.064s] -- Install configuration: "Release"
+[0.088s] -- Execute custom install script
+[0.088s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_moveit_config/share/ament_index/resource_index/package_run_dependencies/mirte_moveit_config
+[0.089s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_moveit_config/share/ament_index/resource_index/parent_prefix_path/mirte_moveit_config
+[0.089s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_moveit_config/share/mirte_moveit_config/environment/ament_prefix_path.sh
+[0.089s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_moveit_config/share/mirte_moveit_config/environment/ament_prefix_path.dsv
+[0.089s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_moveit_config/share/mirte_moveit_config/environment/path.sh
+[0.089s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_moveit_config/share/mirte_moveit_config/environment/path.dsv
+[0.089s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_moveit_config/share/mirte_moveit_config/local_setup.bash
+[0.090s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_moveit_config/share/mirte_moveit_config/local_setup.sh
+[0.090s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_moveit_config/share/mirte_moveit_config/local_setup.zsh
+[0.090s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_moveit_config/share/mirte_moveit_config/local_setup.dsv
+[0.090s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_moveit_config/share/mirte_moveit_config/package.dsv
+[0.092s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_moveit_config/share/ament_index/resource_index/packages/mirte_moveit_config
+[0.092s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_moveit_config/share/mirte_moveit_config/cmake/mirte_moveit_configConfig.cmake
+[0.092s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_moveit_config/share/mirte_moveit_config/cmake/mirte_moveit_configConfig-version.cmake
+[0.092s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_moveit_config/share/mirte_moveit_config/package.xml
+[0.092s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_moveit_config/share/mirte_moveit_config/launch/demo.launch.py
+[0.092s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_moveit_config/share/mirte_moveit_config/launch/mirte_moveit.launch.py
+[0.092s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_moveit_config/share/mirte_moveit_config/launch/move_group.launch.py
+[0.093s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_moveit_config/share/mirte_moveit_config/launch/moveit_rviz.launch.py
+[0.093s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_moveit_config/share/mirte_moveit_config/launch/rsp.launch.py
+[0.093s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_moveit_config/share/mirte_moveit_config/launch/setup_assistant.launch.py
+[0.093s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_moveit_config/share/mirte_moveit_config/launch/spawn_controllers.launch.py
+[0.093s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_moveit_config/share/mirte_moveit_config/launch/static_virtual_joint_tfs.launch.py
+[0.093s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_moveit_config/share/mirte_moveit_config/launch/warehouse_db.launch.py
+[0.093s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_moveit_config/share/mirte_moveit_config/config/initial_positions.yaml
+[0.093s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_moveit_config/share/mirte_moveit_config/config/joint_limits.yaml
+[0.093s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_moveit_config/share/mirte_moveit_config/config/kinematics.yaml
+[0.093s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_moveit_config/share/mirte_moveit_config/config/mirte_master.ros2_control.xacro
+[0.093s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_moveit_config/share/mirte_moveit_config/config/mirte_master.srdf
+[0.093s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_moveit_config/share/mirte_moveit_config/config/mirte_master.urdf.xacro
+[0.093s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_moveit_config/share/mirte_moveit_config/config/moveit.rviz
+[0.093s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_moveit_config/share/mirte_moveit_config/config/moveit_controllers.yaml
+[0.093s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_moveit_config/share/mirte_moveit_config/config/pilz_cartesian_limits.yaml
+[0.093s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_moveit_config/share/mirte_moveit_config/.setup_assistant
+[0.093s] Invoked command in '/home/mirte/mirte_ws/build/mirte_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/mirte/mirte_ws/install/mirte_master_description:/home/mirte/mirte_ws/install/mirte_bringup:/home/mirte/mirte_ws/install/web_video_server:/home/mirte/mirte_ws/install/orbbec_description:/home/mirte/mirte_ws/install/orbbec_camera:/home/mirte/mirte_ws/install/orbbec_camera_msgs:/home/mirte/mirte_ws/install/mirte_zenoh_setup:/home/mirte/mirte_ws/install/mirte_pioneer_description:/home/mirte/mirte_ws/install/mirte_moveit_config:/home/mirte/mirte_ws/install/mirte_fastdds_discovery_setup:/home/mirte/mirte_ws/install/mirte_test:/opt/ros/humble /usr/bin/cmake --install /home/mirte/mirte_ws/build/mirte_moveit_config

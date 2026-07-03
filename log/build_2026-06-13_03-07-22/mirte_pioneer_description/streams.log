@@ -1,0 +1,58 @@
+[0.036s] Invoking command in '/home/mirte/mirte_ws/build/mirte_pioneer_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mirte/mirte_ws/build/mirte_pioneer_description -- -j4 -l4
+[0.233s] gmake: the '-j' option requires a positive integer argument
+[0.234s] Invoked command in '/home/mirte/mirte_ws/build/mirte_pioneer_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mirte/mirte_ws/build/mirte_pioneer_description -- -j4 -l4
+[0.235s] Invoking command in '/home/mirte/mirte_ws/build/mirte_pioneer_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mirte/mirte_ws/build/mirte_pioneer_description
+[0.242s] -- Install configuration: "Release"
+[0.242s] -- Execute custom install script
+[0.242s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_pioneer_description/share/mirte_pioneer_description//launch/rviz.launch.xml
+[0.242s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_pioneer_description/share/mirte_pioneer_description//urdf/materials.xacro
+[0.242s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_pioneer_description/share/mirte_pioneer_description//urdf/mirte/README.md
+[0.242s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_pioneer_description/share/mirte_pioneer_description//urdf/mirte/camera.xacro
+[0.242s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_pioneer_description/share/mirte_pioneer_description//urdf/mirte/diffdrive.xacro
+[0.243s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_pioneer_description/share/mirte_pioneer_description//urdf/mirte/ir.xacro
+[0.243s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_pioneer_description/share/mirte_pioneer_description//urdf/mirte/lidar.xacro
+[0.243s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_pioneer_description/share/mirte_pioneer_description//urdf/mirte/macros.xacro
+[0.243s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_pioneer_description/share/mirte_pioneer_description//urdf/mirte/materials.xacro
+[0.243s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_pioneer_description/share/mirte_pioneer_description//urdf/mirte/mirte.xacro
+[0.243s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_pioneer_description/share/mirte_pioneer_description//urdf/mirte/realsense-RS200.macro.xacro
+[0.243s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_pioneer_description/share/mirte_pioneer_description//urdf/mirte/realsense-depth.xacro
+[0.243s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_pioneer_description/share/mirte_pioneer_description//urdf/mirte/realsense-lidar.xacro
+[0.243s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_pioneer_description/share/mirte_pioneer_description//urdf/mirte/realsense.xacro
+[0.243s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_pioneer_description/share/mirte_pioneer_description//urdf/mirte/ultrasonic.xacro
+[0.243s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_pioneer_description/share/mirte_pioneer_description//meshes/lidar.stl
+[0.245s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_pioneer_description/share/mirte_pioneer_description//meshes/mirte_base.stl
+[0.245s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_pioneer_description/share/mirte_pioneer_description//meshes/mirte_base_coll.stl
+[0.245s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_pioneer_description/share/mirte_pioneer_description//meshes/wheel.stl
+[0.249s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_pioneer_description/share/mirte_pioneer_description//models/mirte/meshes/lidar.stl
+[0.249s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_pioneer_description/share/mirte_pioneer_description//models/mirte/meshes/mirte_base.stl
+[0.249s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_pioneer_description/share/mirte_pioneer_description//models/mirte/meshes/mirte_base_coll.stl
+[0.249s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_pioneer_description/share/mirte_pioneer_description//models/mirte/meshes/wheel.stl
+[0.249s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_pioneer_description/share/mirte_pioneer_description//models/mirte_base/mirte_base.mtl
+[0.249s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_pioneer_description/share/mirte_pioneer_description//models/mirte_base/mirte_base.obj
+[0.249s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_pioneer_description/share/mirte_pioneer_description//models/mirte_base/mirte_base.png
+[0.249s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_pioneer_description/share/mirte_pioneer_description//models/realsense_camera/materials/textures/realsense_diffuse.png
+[0.249s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_pioneer_description/share/mirte_pioneer_description//models/realsense_camera/meshes/realsense.dae
+[0.249s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_pioneer_description/share/mirte_pioneer_description//models/realsense_camera/meshes/realsense.mtl
+[0.249s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_pioneer_description/share/mirte_pioneer_description//models/realsense_camera/meshes/realsense.obj
+[0.249s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_pioneer_description/share/mirte_pioneer_description//models/realsense_camera/model.config
+[0.249s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_pioneer_description/share/mirte_pioneer_description//models/realsense_camera/model.sdf
+[0.249s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_pioneer_description/share/mirte_pioneer_description//models/wheel/wheel.mtl
+[0.249s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_pioneer_description/share/mirte_pioneer_description//models/wheel/wheel.obj
+[0.249s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_pioneer_description/share/mirte_pioneer_description//config/mirte_dimensions.yaml
+[0.249s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_pioneer_description/share/mirte_pioneer_description//rviz/urdf.rviz
+[0.249s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_pioneer_description/share/ament_index/resource_index/package_run_dependencies/mirte_pioneer_description
+[0.250s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_pioneer_description/share/ament_index/resource_index/parent_prefix_path/mirte_pioneer_description
+[0.250s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_pioneer_description/share/mirte_pioneer_description/environment/ament_prefix_path.sh
+[0.250s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_pioneer_description/share/mirte_pioneer_description/environment/ament_prefix_path.dsv
+[0.250s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_pioneer_description/share/mirte_pioneer_description/environment/path.sh
+[0.250s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_pioneer_description/share/mirte_pioneer_description/environment/path.dsv
+[0.250s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_pioneer_description/share/mirte_pioneer_description/local_setup.bash
+[0.250s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_pioneer_description/share/mirte_pioneer_description/local_setup.sh
+[0.250s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_pioneer_description/share/mirte_pioneer_description/local_setup.zsh
+[0.250s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_pioneer_description/share/mirte_pioneer_description/local_setup.dsv
+[0.250s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_pioneer_description/share/mirte_pioneer_description/package.dsv
+[0.254s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_pioneer_description/share/ament_index/resource_index/packages/mirte_pioneer_description
+[0.254s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_pioneer_description/share/mirte_pioneer_description/cmake/mirte_pioneer_descriptionConfig.cmake
+[0.254s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_pioneer_description/share/mirte_pioneer_description/cmake/mirte_pioneer_descriptionConfig-version.cmake
+[0.254s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_pioneer_description/share/mirte_pioneer_description/package.xml
+[0.278s] Invoked command in '/home/mirte/mirte_ws/build/mirte_pioneer_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mirte/mirte_ws/build/mirte_pioneer_description

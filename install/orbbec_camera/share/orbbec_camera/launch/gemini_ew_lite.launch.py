@@ -1,0 +1,1 @@
+/home/mirte/mirte_ws/src/orbbecsdk_ros2/orbbec_camera/launch/gemini_ew_lite.launch.py

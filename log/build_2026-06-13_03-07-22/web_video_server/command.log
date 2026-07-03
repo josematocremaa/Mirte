@@ -1,0 +1,4 @@
+Invoking command in '/home/mirte/mirte_ws/build/web_video_server': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mirte/mirte_ws/build/web_video_server -- -j4 -l4
+Invoked command in '/home/mirte/mirte_ws/build/web_video_server' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mirte/mirte_ws/build/web_video_server -- -j4 -l4
+Invoking command in '/home/mirte/mirte_ws/build/web_video_server': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mirte/mirte_ws/build/web_video_server
+Invoked command in '/home/mirte/mirte_ws/build/web_video_server' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mirte/mirte_ws/build/web_video_server

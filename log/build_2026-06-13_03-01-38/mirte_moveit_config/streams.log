@@ -1,0 +1,61 @@
+[0.006s] Invoking command in '/home/mirte/mirte_ws/build/mirte_moveit_config': AMENT_PREFIX_PATH=/home/mirte/mirte_ws/install/mirte_master_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mirte/mirte_ws/install/mirte_master_description:/opt/ros/humble /usr/bin/cmake /home/mirte/mirte_ws/src/mirte-ros-packages/mirte_moveit_config -DCMAKE_C_COMPILER_LAUNCHER=ccache -DCMAKE_CXX_COMPILER_LAUNCHER=ccache -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mirte/mirte_ws/install/mirte_moveit_config
+[0.096s] -- The C compiler identification is GNU 11.4.0
+[0.182s] -- The CXX compiler identification is GNU 11.4.0
+[0.273s] -- Detecting C compiler ABI info
+[0.378s] -- Detecting C compiler ABI info - done
+[0.387s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.387s] -- Detecting C compile features
+[0.388s] -- Detecting C compile features - done
+[0.396s] -- Detecting CXX compiler ABI info
+[0.538s] -- Detecting CXX compiler ABI info - done
+[0.548s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.548s] -- Detecting CXX compile features
+[0.548s] -- Detecting CXX compile features - done
+[0.551s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.781s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.890s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.028s] -- Configuring done
+[1.034s] -- Generating done
+[1.035s] -- Build files have been written to: /home/mirte/mirte_ws/build/mirte_moveit_config
+[1.057s] Invoked command in '/home/mirte/mirte_ws/build/mirte_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/mirte/mirte_ws/install/mirte_master_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mirte/mirte_ws/install/mirte_master_description:/opt/ros/humble /usr/bin/cmake /home/mirte/mirte_ws/src/mirte-ros-packages/mirte_moveit_config -DCMAKE_C_COMPILER_LAUNCHER=ccache -DCMAKE_CXX_COMPILER_LAUNCHER=ccache -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mirte/mirte_ws/install/mirte_moveit_config
+[1.057s] Invoking command in '/home/mirte/mirte_ws/build/mirte_moveit_config': AMENT_PREFIX_PATH=/home/mirte/mirte_ws/install/mirte_master_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mirte/mirte_ws/install/mirte_master_description:/opt/ros/humble /usr/bin/cmake --build /home/mirte/mirte_ws/build/mirte_moveit_config -- -j4 -l4
+[1.105s] gmake: the '-j' option requires a positive integer argument
+[1.128s] Invoked command in '/home/mirte/mirte_ws/build/mirte_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/mirte/mirte_ws/install/mirte_master_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mirte/mirte_ws/install/mirte_master_description:/opt/ros/humble /usr/bin/cmake --build /home/mirte/mirte_ws/build/mirte_moveit_config -- -j4 -l4
+[1.131s] Invoking command in '/home/mirte/mirte_ws/build/mirte_moveit_config': AMENT_PREFIX_PATH=/home/mirte/mirte_ws/install/mirte_master_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mirte/mirte_ws/install/mirte_master_description:/opt/ros/humble /usr/bin/cmake --install /home/mirte/mirte_ws/build/mirte_moveit_config
+[1.137s] -- Install configuration: "Release"
+[1.137s] -- Execute custom install script
+[1.141s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_moveit_config/share/ament_index/resource_index/package_run_dependencies/mirte_moveit_config
+[1.155s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_moveit_config/share/ament_index/resource_index/parent_prefix_path/mirte_moveit_config
+[1.171s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_moveit_config/share/mirte_moveit_config/environment/ament_prefix_path.sh
+[1.182s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_moveit_config/share/mirte_moveit_config/environment/ament_prefix_path.dsv
+[1.192s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_moveit_config/share/mirte_moveit_config/environment/path.sh
+[1.204s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_moveit_config/share/mirte_moveit_config/environment/path.dsv
+[1.215s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_moveit_config/share/mirte_moveit_config/local_setup.bash
+[1.227s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_moveit_config/share/mirte_moveit_config/local_setup.sh
+[1.242s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_moveit_config/share/mirte_moveit_config/local_setup.zsh
+[1.256s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_moveit_config/share/mirte_moveit_config/local_setup.dsv
+[1.271s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_moveit_config/share/mirte_moveit_config/package.dsv
+[1.279s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_moveit_config/share/ament_index/resource_index/packages/mirte_moveit_config
+[1.288s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_moveit_config/share/mirte_moveit_config/cmake/mirte_moveit_configConfig.cmake
+[1.299s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_moveit_config/share/mirte_moveit_config/cmake/mirte_moveit_configConfig-version.cmake
+[1.312s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_moveit_config/share/mirte_moveit_config/package.xml
+[1.323s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_moveit_config/share/mirte_moveit_config/launch/demo.launch.py
+[1.337s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_moveit_config/share/mirte_moveit_config/launch/mirte_moveit.launch.py
+[1.349s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_moveit_config/share/mirte_moveit_config/launch/move_group.launch.py
+[1.360s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_moveit_config/share/mirte_moveit_config/launch/moveit_rviz.launch.py
+[1.372s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_moveit_config/share/mirte_moveit_config/launch/rsp.launch.py
+[1.386s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_moveit_config/share/mirte_moveit_config/launch/setup_assistant.launch.py
+[1.395s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_moveit_config/share/mirte_moveit_config/launch/spawn_controllers.launch.py
+[1.404s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_moveit_config/share/mirte_moveit_config/launch/static_virtual_joint_tfs.launch.py
+[1.418s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_moveit_config/share/mirte_moveit_config/launch/warehouse_db.launch.py
+[1.431s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_moveit_config/share/mirte_moveit_config/config/initial_positions.yaml
+[1.446s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_moveit_config/share/mirte_moveit_config/config/joint_limits.yaml
+[1.460s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_moveit_config/share/mirte_moveit_config/config/kinematics.yaml
+[1.478s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_moveit_config/share/mirte_moveit_config/config/mirte_master.ros2_control.xacro
+[1.491s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_moveit_config/share/mirte_moveit_config/config/mirte_master.srdf
+[1.502s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_moveit_config/share/mirte_moveit_config/config/mirte_master.urdf.xacro
+[1.512s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_moveit_config/share/mirte_moveit_config/config/moveit.rviz
+[1.524s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_moveit_config/share/mirte_moveit_config/config/moveit_controllers.yaml
+[1.535s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_moveit_config/share/mirte_moveit_config/config/pilz_cartesian_limits.yaml
+[1.547s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_moveit_config/share/mirte_moveit_config/.setup_assistant
+[1.562s] Invoked command in '/home/mirte/mirte_ws/build/mirte_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/mirte/mirte_ws/install/mirte_master_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mirte/mirte_ws/install/mirte_master_description:/opt/ros/humble /usr/bin/cmake --install /home/mirte/mirte_ws/build/mirte_moveit_config

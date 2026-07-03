@@ -1,0 +1,108 @@
+[0.015s] Invoking command in '/home/mirte/mirte_ws/build/orbbec_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mirte/mirte_ws/src/orbbecsdk_ros2/orbbec_description -DCMAKE_C_COMPILER_LAUNCHER=ccache -DCMAKE_CXX_COMPILER_LAUNCHER=ccache -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mirte/mirte_ws/install/orbbec_description
+[0.095s] -- The C compiler identification is GNU 11.4.0
+[0.198s] -- The CXX compiler identification is GNU 11.4.0
+[0.210s] -- Detecting C compiler ABI info
+[0.310s] -- Detecting C compiler ABI info - done
+[0.318s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.318s] -- Detecting C compile features
+[0.318s] -- Detecting C compile features - done
+[0.324s] -- Detecting CXX compiler ABI info
+[0.444s] -- Detecting CXX compiler ABI info - done
+[0.466s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.466s] -- Detecting CXX compile features
+[0.466s] -- Detecting CXX compile features - done
+[0.471s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.635s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.698s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.806s] -- Configuring done
+[0.812s] -- Generating done
+[0.813s] -- Build files have been written to: /home/mirte/mirte_ws/build/orbbec_description
+[0.822s] Invoked command in '/home/mirte/mirte_ws/build/orbbec_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mirte/mirte_ws/src/orbbecsdk_ros2/orbbec_description -DCMAKE_C_COMPILER_LAUNCHER=ccache -DCMAKE_CXX_COMPILER_LAUNCHER=ccache -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mirte/mirte_ws/install/orbbec_description
+[0.822s] Invoking command in '/home/mirte/mirte_ws/build/orbbec_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mirte/mirte_ws/build/orbbec_description -- -j4 -l4
+[0.831s] gmake: the '-j' option requires a positive integer argument
+[0.867s] Invoked command in '/home/mirte/mirte_ws/build/orbbec_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mirte/mirte_ws/build/orbbec_description -- -j4 -l4
+[0.868s] Invoking command in '/home/mirte/mirte_ws/build/orbbec_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mirte/mirte_ws/build/orbbec_description
+[0.873s] -- Install configuration: "Release"
+[0.873s] -- Execute custom install script
+[0.879s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/launch/launch_utils.py
+[0.884s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/launch/view_model.launch.py
+[0.893s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/meshes/AstraPlus.stl
+[0.904s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/meshes/astra2/base_link.STL
+[0.916s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/meshes/astra2/camera_bottom_screw_frame.STL
+[0.928s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/meshes/astra2/camera_color_optical_frame.STL
+[0.968s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/meshes/astra2/camera_colorl_frame.STL
+[0.968s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/meshes/astra2/camera_depth_frame.STL
+[0.968s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/meshes/astra2/camera_depth_optical_frame.STL
+[0.968s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/meshes/astra2/camera_infra1_frame.STL
+[0.969s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/meshes/astra2/camera_infra1_optical_frame.STL
+[0.969s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/meshes/femto_bolt/femto_bolt.stl
+[0.972s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/meshes/gemini2/base_link.STL
+[0.977s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/meshes/gemini2/camera_botter_screw_frame.STL
+[0.990s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/meshes/gemini2/camera_color_frame.STL
+[1.001s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/meshes/gemini2/camera_color_optical_frame.STL
+[1.013s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/meshes/gemini2/camera_depth_frame.STL
+[1.024s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/meshes/gemini2/camera_infra1_frame.STL
+[1.037s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/meshes/gemini2/camera_infra1_optical_frame.STL
+[1.047s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/meshes/gemini2/camera_infra2_frame.STL
+[1.074s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/meshes/gemini2/camera_infra2_optical_frame.STL
+[1.085s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/meshes/gemini2l/base_link.STL
+[1.097s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/meshes/gemini2l/camera_IR1_frame.STL
+[1.116s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/meshes/gemini2l/camera_IR1_optical_frame.STL
+[1.128s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/meshes/gemini2l/camera_IR2_frame.STL
+[1.138s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/meshes/gemini2l/camera_IR2_optical_frame.STL
+[1.152s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/meshes/gemini2l/camera_bottom_screw_frame.STL
+[1.238s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/meshes/gemini2l/camera_color_frame.STL
+[1.254s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/meshes/gemini2l/camera_depth_frame.STL
+[1.268s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/meshes/gemini2l/camera_imu_frame.STL
+[1.280s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/meshes/gemini2l/camera_rgb_optical_frame.STL
+[1.291s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335L_336L/base_link.STL
+[1.303s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335L_336L/camera_IMU_frame.STL
+[1.316s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335L_336L/camera_color_frame.STL
+[1.330s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335L_336L/camera_color_optical_frame.STL
+[1.342s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335L_336L/camera_color_screw_frame.STL
+[1.359s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335L_336L/camera_depth_frame.STL
+[1.369s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335L_336L/camera_infra1_frame.STL
+[1.376s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335L_336L/camera_infra1_optical_frame.STL
+[1.384s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335L_336L/camera_infra2_frame.STL
+[1.402s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335L_336L/camera_infra2_optical_frame.STL
+[1.413s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335_336/camera_bottom_screw_frame.STL
+[1.426s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335_336/camera_color_frame.STL
+[1.443s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335_336/camera_color_optical_frame.STL
+[1.464s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335_336/camera_depth_frame.STL
+[1.478s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335_336/camera_depth_optical_frame.STL
+[1.492s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335_336/camera_left_ir_frame.STL
+[1.512s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335_336/camera_left_ir_optical_frame.STL
+[1.527s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335_336/camera_link.STL
+[1.545s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335_336/camera_right_ir_frame.STL
+[1.560s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/meshes/gemini335_336/camera_right_ir_optical_frame.STL
+[1.576s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/urdf/astra2.urdf.xacro
+[1.592s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/urdf/femto_bolt.urdf.xacro
+[1.601s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/urdf/gemini2.urdf.xacro
+[1.616s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/urdf/gemini2L.urdf.xacro
+[1.635s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/urdf/gemini335L_336L.urdf.xacro
+[1.655s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/urdf/gemini_335_336.urdf.xacro
+[1.668s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/urdf/test_astra2.urdf.xacro
+[1.689s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/urdf/test_femto_bolt.urdf.xacro
+[1.700s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/urdf/test_gemini2.urdf.xacro
+[1.717s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/urdf/test_gemini2L.urdf.xacro
+[1.737s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/urdf/test_gemini335L.urdf.xacro
+[1.750s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/urdf/test_gemini336L.urdf.xacro
+[1.770s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/urdf/test_gemini_335.urdf.xarco
+[1.788s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/urdf/test_gemini_336.urdf.xarco
+[1.800s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/rviz/urdf.rviz
+[1.813s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/ament_index/resource_index/package_run_dependencies/orbbec_description
+[1.828s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/ament_index/resource_index/parent_prefix_path/orbbec_description
+[1.843s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/environment/ament_prefix_path.sh
+[1.857s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/environment/ament_prefix_path.dsv
+[1.870s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/environment/path.sh
+[1.888s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/environment/path.dsv
+[1.905s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/local_setup.bash
+[1.916s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/local_setup.sh
+[1.930s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/local_setup.zsh
+[1.943s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/local_setup.dsv
+[1.955s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/package.dsv
+[1.967s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/ament_index/resource_index/packages/orbbec_description
+[1.979s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/cmake/orbbec_descriptionConfig.cmake
+[1.998s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/cmake/orbbec_descriptionConfig-version.cmake
+[2.020s] -- Symlinking: /home/mirte/mirte_ws/install/orbbec_description/share/orbbec_description/package.xml
+[2.035s] Invoked command in '/home/mirte/mirte_ws/build/orbbec_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mirte/mirte_ws/build/orbbec_description

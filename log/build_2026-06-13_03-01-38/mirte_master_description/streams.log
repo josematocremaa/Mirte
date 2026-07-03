@@ -1,0 +1,87 @@
+[0.022s] Invoking command in '/home/mirte/mirte_ws/build/mirte_master_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mirte/mirte_ws/src/mirte-ros-packages/mirte_description/mirte_master_description -DCMAKE_C_COMPILER_LAUNCHER=ccache -DCMAKE_CXX_COMPILER_LAUNCHER=ccache -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mirte/mirte_ws/install/mirte_master_description
+[0.066s] -- The C compiler identification is GNU 11.4.0
+[0.106s] -- The CXX compiler identification is GNU 11.4.0
+[0.112s] -- Detecting C compiler ABI info
+[0.165s] -- Detecting C compiler ABI info - done
+[0.169s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.170s] -- Detecting C compile features
+[0.170s] -- Detecting C compile features - done
+[0.174s] -- Detecting CXX compiler ABI info
+[0.231s] -- Detecting CXX compiler ABI info - done
+[0.237s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.237s] -- Detecting CXX compile features
+[0.238s] -- Detecting CXX compile features - done
+[0.240s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.331s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.380s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.399s] -- X=launch
+[0.399s] -- X=urdf
+[0.399s] -- X=meshes
+[0.400s] -- X=config
+[0.401s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.460s] -- Added test 'lint_cmake' to check CMake code style
+[0.464s] -- Added test 'xmllint' to check XML markup files
+[0.466s] -- Configuring done
+[0.468s] -- Generating done
+[0.469s] -- Build files have been written to: /home/mirte/mirte_ws/build/mirte_master_description
+[0.473s] Invoked command in '/home/mirte/mirte_ws/build/mirte_master_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mirte/mirte_ws/src/mirte-ros-packages/mirte_description/mirte_master_description -DCMAKE_C_COMPILER_LAUNCHER=ccache -DCMAKE_CXX_COMPILER_LAUNCHER=ccache -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mirte/mirte_ws/install/mirte_master_description
+[0.474s] Invoking command in '/home/mirte/mirte_ws/build/mirte_master_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mirte/mirte_ws/build/mirte_master_description -- -j4 -l4
+[0.481s] gmake: the '-j' option requires a positive integer argument
+[0.503s] Invoked command in '/home/mirte/mirte_ws/build/mirte_master_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mirte/mirte_ws/build/mirte_master_description -- -j4 -l4
+[0.507s] Invoking command in '/home/mirte/mirte_ws/build/mirte_master_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mirte/mirte_ws/build/mirte_master_description
+[0.510s] -- Install configuration: "Release"
+[0.511s] -- Execute custom install script
+[0.512s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//launch/rviz.launch.xml
+[0.522s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//urdf/arm.xacro
+[0.529s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//urdf/flag.xacro
+[0.535s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//urdf/lidar.xacro
+[0.543s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//urdf/mirte_master.xacro
+[0.549s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//urdf/mirte_master_base.gazebo.xacro
+[0.555s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//urdf/orbbec_astra_plus_pro.xacro
+[0.561s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//urdf/ros2_control.xacro
+[0.567s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//urdf/ultrasonic.xacro
+[0.573s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//urdf/wheel.gazebo.xacro
+[0.579s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//urdf/wheel.xacro
+[0.586s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/Gripper.STL
+[0.594s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/_Gripper_r.STL
+[0.599s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/_gripper_link_l.STL
+[0.610s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/_gripper_link_r.STL
+[0.616s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/arm_Elbow.STL
+[0.624s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/arm_Rot.STL
+[0.631s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/arm_Shoulder.STL
+[0.657s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/arm_Wrist.STL
+[0.657s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/cam_front.STL
+[0.657s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/depth_cam.STL
+[0.657s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/flag.STL
+[0.664s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/frame_link.STL
+[0.667s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/gripper_finger_l.STL
+[0.673s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/gripper_finger_r.STL
+[0.679s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/lidar.STL
+[0.685s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/orbbec_astra.stl
+[0.694s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/screen.STL
+[0.697s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/ultrasonic_bl.STL
+[0.703s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/ultrasonic_br.STL
+[0.709s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/ultrasonic_fl.STL
+[0.715s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/ultrasonic_fr.STL
+[0.722s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/wheel_left.STL
+[0.728s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/wheel_right.STL
+[0.736s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//config/control_master.yaml
+[0.745s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//config/joint_names_mirte_master.yaml
+[0.752s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//config/mirte_base_control.yaml
+[0.758s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//config/mirte_diff_drive.yaml
+[0.764s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/ament_index/resource_index/package_run_dependencies/mirte_master_description
+[0.772s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/ament_index/resource_index/parent_prefix_path/mirte_master_description
+[0.779s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description/environment/ament_prefix_path.sh
+[0.785s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description/environment/ament_prefix_path.dsv
+[0.791s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description/environment/path.sh
+[0.798s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description/environment/path.dsv
+[0.804s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description/local_setup.bash
+[0.812s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description/local_setup.sh
+[0.818s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description/local_setup.zsh
+[0.824s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description/local_setup.dsv
+[0.831s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description/package.dsv
+[0.837s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/ament_index/resource_index/packages/mirte_master_description
+[0.843s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description/cmake/mirte_master_descriptionConfig.cmake
+[0.850s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description/cmake/mirte_master_descriptionConfig-version.cmake
+[0.856s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description/package.xml
+[0.866s] Invoked command in '/home/mirte/mirte_ws/build/mirte_master_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mirte/mirte_ws/build/mirte_master_description

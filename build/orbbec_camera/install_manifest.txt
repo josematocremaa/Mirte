@@ -1,0 +1,7 @@
+/home/mirte/mirte_ws/install/orbbec_camera/lib//libob_usb.so
+/home/mirte/mirte_ws/install/orbbec_camera/lib//libdepthengine.so
+/home/mirte/mirte_ws/install/orbbec_camera/lib//libOrbbecSDK.so
+/home/mirte/mirte_ws/install/orbbec_camera/lib//libOrbbecSDK.so.1.10.35
+/home/mirte/mirte_ws/install/orbbec_camera/lib//libOrbbecSDK.so.1.10
+/home/mirte/mirte_ws/install/orbbec_camera/lib//liblive555.so
+/home/mirte/mirte_ws/install/orbbec_camera/lib//libdepthengine.so.2.0

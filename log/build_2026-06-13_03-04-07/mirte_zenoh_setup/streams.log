@@ -1,0 +1,27 @@
+[0.033s] Invoking command in '/home/mirte/mirte_ws/build/mirte_zenoh_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mirte/mirte_ws/install/mirte_test:/opt/ros/humble /usr/bin/cmake --build /home/mirte/mirte_ws/build/mirte_zenoh_setup -- -j4 -l4
+[0.063s] gmake: the '-j' option requires a positive integer argument
+[0.065s] Invoked command in '/home/mirte/mirte_ws/build/mirte_zenoh_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mirte/mirte_ws/install/mirte_test:/opt/ros/humble /usr/bin/cmake --build /home/mirte/mirte_ws/build/mirte_zenoh_setup -- -j4 -l4
+[0.066s] Invoking command in '/home/mirte/mirte_ws/build/mirte_zenoh_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mirte/mirte_ws/install/mirte_test:/opt/ros/humble /usr/bin/cmake --install /home/mirte/mirte_ws/build/mirte_zenoh_setup
+[0.075s] -- Install configuration: "Release"
+[0.075s] -- Execute custom install script
+[0.075s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_zenoh_setup/share/mirte_zenoh_setup/environment/mirte_zenoh_setup.sh
+[0.075s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_zenoh_setup/share/mirte_zenoh_setup//config/router_client_config.json5.in
+[0.075s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_zenoh_setup/share/mirte_zenoh_setup//config/router_robot_config.json5
+[0.076s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_zenoh_setup/share/mirte_zenoh_setup//config/session_config.json5
+[0.076s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_zenoh_setup/share/ament_index/resource_index/package_run_dependencies/mirte_zenoh_setup
+[0.076s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_zenoh_setup/share/ament_index/resource_index/parent_prefix_path/mirte_zenoh_setup
+[0.076s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_zenoh_setup/share/mirte_zenoh_setup/environment/ament_prefix_path.sh
+[0.076s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_zenoh_setup/share/mirte_zenoh_setup/environment/ament_prefix_path.dsv
+[0.076s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_zenoh_setup/share/mirte_zenoh_setup/environment/path.sh
+[0.076s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_zenoh_setup/share/mirte_zenoh_setup/environment/path.dsv
+[0.076s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_zenoh_setup/share/mirte_zenoh_setup/local_setup.bash
+[0.076s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_zenoh_setup/share/mirte_zenoh_setup/local_setup.sh
+[0.076s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_zenoh_setup/share/mirte_zenoh_setup/local_setup.zsh
+[0.076s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_zenoh_setup/share/mirte_zenoh_setup/local_setup.dsv
+[0.076s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_zenoh_setup/share/mirte_zenoh_setup/package.dsv
+[0.088s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_zenoh_setup/share/ament_index/resource_index/packages/mirte_zenoh_setup
+[0.088s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_zenoh_setup/share/mirte_zenoh_setup/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.088s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_zenoh_setup/share/mirte_zenoh_setup/cmake/mirte_zenoh_setupConfig.cmake
+[0.088s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_zenoh_setup/share/mirte_zenoh_setup/cmake/mirte_zenoh_setupConfig-version.cmake
+[0.088s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_zenoh_setup/share/mirte_zenoh_setup/package.xml
+[0.088s] Invoked command in '/home/mirte/mirte_ws/build/mirte_zenoh_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mirte/mirte_ws/install/mirte_test:/opt/ros/humble /usr/bin/cmake --install /home/mirte/mirte_ws/build/mirte_zenoh_setup

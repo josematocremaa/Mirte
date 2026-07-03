@@ -1,0 +1,1 @@
+/home/mirte/mirte_ws/build/mirte_fastdds_discovery_setup/ament_cmake_core/mirte_fastdds_discovery_setupConfig-version.cmake

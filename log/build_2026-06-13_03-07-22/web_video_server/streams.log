@@ -1,0 +1,50 @@
+[0.018s] Invoking command in '/home/mirte/mirte_ws/build/web_video_server': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mirte/mirte_ws/build/web_video_server -- -j4 -l4
+[0.030s] gmake: the '-j' option requires a positive integer argument
+[0.112s] [ 31%] Built target web_video_server
+[0.142s] [ 43%] Built target web_video_server_node
+[0.339s] [100%] Built target web_video_server_streamers
+[0.340s] Invoked command in '/home/mirte/mirte_ws/build/web_video_server' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mirte/mirte_ws/build/web_video_server -- -j4 -l4
+[0.341s] Invoking command in '/home/mirte/mirte_ws/build/web_video_server': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mirte/mirte_ws/build/web_video_server
+[0.348s] -- Install configuration: "Release"
+[0.349s] -- Execute custom install script
+[0.349s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/share/web_video_server//plugins.xml
+[0.349s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/include/web_video_server/web_video_server/multipart_stream.hpp
+[0.350s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/include/web_video_server/web_video_server/streamer.hpp
+[0.350s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/include/web_video_server/web_video_server/streamers/h264_streamer.hpp
+[0.350s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/include/web_video_server/web_video_server/streamers/image_transport_streamer.hpp
+[0.350s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/include/web_video_server/web_video_server/streamers/jpeg_streamers.hpp
+[0.350s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/include/web_video_server/web_video_server/streamers/libav_streamer.hpp
+[0.350s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/include/web_video_server/web_video_server/streamers/png_streamers.hpp
+[0.350s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/include/web_video_server/web_video_server/streamers/ros_compressed_streamer.hpp
+[0.350s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/include/web_video_server/web_video_server/streamers/vp8_streamer.hpp
+[0.353s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/include/web_video_server/web_video_server/streamers/vp9_streamer.hpp
+[0.354s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/include/web_video_server/web_video_server/utils.hpp
+[0.354s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/include/web_video_server/web_video_server/web_video_server.hpp
+[0.354s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/share/web_video_server/environment/library_path.sh
+[0.354s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/share/web_video_server/environment/library_path.dsv
+[0.354s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/lib/web_video_server/web_video_server
+[0.354s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/share/ament_index/resource_index/package_run_dependencies/web_video_server
+[0.354s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/share/ament_index/resource_index/parent_prefix_path/web_video_server
+[0.354s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/share/web_video_server/environment/ament_prefix_path.sh
+[0.354s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/share/web_video_server/environment/ament_prefix_path.dsv
+[0.354s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/share/web_video_server/environment/path.sh
+[0.354s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/share/web_video_server/environment/path.dsv
+[0.354s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/share/web_video_server/local_setup.bash
+[0.354s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/share/web_video_server/local_setup.sh
+[0.354s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/share/web_video_server/local_setup.zsh
+[0.354s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/share/web_video_server/local_setup.dsv
+[0.354s] -- Symlinking: /home/mirte/mirte_ws/install/web_video_server/share/web_video_server/package.dsv
+[0.359s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/share/ament_index/resource_index/packages/web_video_server
+[0.359s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/share/ament_index/resource_index/web_video_server__pluginlib__plugin/web_video_server
+[0.359s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/share/ament_index/resource_index/rclcpp_components/web_video_server
+[0.359s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/share/web_video_server/cmake/config-extras.cmake
+[0.359s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/share/web_video_server/cmake/ament_cmake_export_targets-extras.cmake
+[0.359s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/share/web_video_server/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.359s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/share/web_video_server/cmake/web_video_serverConfig.cmake
+[0.361s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/share/web_video_server/cmake/web_video_serverConfig-version.cmake
+[0.362s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/share/web_video_server/package.xml
+[0.362s] -- Up-to-date: /home/mirte/mirte_ws/install/web_video_server/lib/libweb_video_server.so
+[0.362s] -- Up-to-date: /home/mirte/mirte_ws/install/web_video_server/lib/libweb_video_server_streamers.so
+[0.363s] -- Up-to-date: /home/mirte/mirte_ws/install/web_video_server/share/web_video_server/cmake/export_web_video_serverExport.cmake
+[0.363s] -- Up-to-date: /home/mirte/mirte_ws/install/web_video_server/share/web_video_server/cmake/export_web_video_serverExport-release.cmake
+[0.364s] Invoked command in '/home/mirte/mirte_ws/build/web_video_server' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mirte/mirte_ws/build/web_video_server

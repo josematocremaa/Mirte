@@ -1,0 +1,1 @@
+/home/mirte/mirte_ws/build/mirte_zenoh_setup/ament_cmake_environment_hooks/mirte_zenoh_setup.sh

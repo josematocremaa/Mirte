@@ -1,0 +1,26 @@
+[0.506s] Invoking command in '/home/mirte/mirte_ws/build/mirte_test': PYTHONPATH=/home/mirte/mirte_ws/build/mirte_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mirte/mirte_ws/install/mirte_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mirte/mirte_ws/build/mirte_test/build --no-deps symlink_data
+[0.844s] running develop
+[1.016s] running egg_info
+[1.016s] creating mirte_test.egg-info
+[1.016s] writing mirte_test.egg-info/PKG-INFO
+[1.016s] writing dependency_links to mirte_test.egg-info/dependency_links.txt
+[1.016s] writing entry points to mirte_test.egg-info/entry_points.txt
+[1.016s] writing requirements to mirte_test.egg-info/requires.txt
+[1.016s] writing top-level names to mirte_test.egg-info/top_level.txt
+[1.016s] writing manifest file 'mirte_test.egg-info/SOURCES.txt'
+[1.021s] reading manifest file 'mirte_test.egg-info/SOURCES.txt'
+[1.021s] writing manifest file 'mirte_test.egg-info/SOURCES.txt'
+[1.028s] running build_ext
+[1.028s] Creating /home/mirte/mirte_ws/install/mirte_test/lib/python3.10/site-packages/mirte-test.egg-link (link to .)
+[1.028s] Installing mirte_master_calibrate script to /home/mirte/mirte_ws/install/mirte_test/lib/mirte_test
+[1.028s] Installing mirte_master_hw_check script to /home/mirte/mirte_ws/install/mirte_test/lib/mirte_test
+[1.028s] Installing mirte_master_set_voltage_ranges script to /home/mirte/mirte_ws/install/mirte_test/lib/mirte_test
+[1.028s] 
+[1.028s] Installed /home/mirte/mirte_ws/build/mirte_test
+[1.028s] running symlink_data
+[1.028s] creating /home/mirte/mirte_ws/install/mirte_test/share/ament_index
+[1.028s] creating /home/mirte/mirte_ws/install/mirte_test/share/ament_index/resource_index
+[1.028s] creating /home/mirte/mirte_ws/install/mirte_test/share/ament_index/resource_index/packages
+[1.028s] symbolically linking /home/mirte/mirte_ws/build/mirte_test/resource/mirte_test -> /home/mirte/mirte_ws/install/mirte_test/share/ament_index/resource_index/packages
+[1.028s] symbolically linking /home/mirte/mirte_ws/build/mirte_test/package.xml -> /home/mirte/mirte_ws/install/mirte_test/share/mirte_test
+[1.077s] Invoked command in '/home/mirte/mirte_ws/build/mirte_test' returned '0': PYTHONPATH=/home/mirte/mirte_ws/build/mirte_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mirte/mirte_ws/install/mirte_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mirte/mirte_ws/build/mirte_test/build --no-deps symlink_data

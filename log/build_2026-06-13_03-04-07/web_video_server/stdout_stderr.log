@@ -1,0 +1,49 @@
+gmake: the '-j' option requires a positive integer argument
+Consolidate compiler generated dependencies of target web_video_server
+[ 31%] Built target web_video_server
+Consolidate compiler generated dependencies of target web_video_server_node
+Consolidate compiler generated dependencies of target web_video_server_streamers
+[ 43%] Built target web_video_server_node
+[100%] Built target web_video_server_streamers
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/share/web_video_server//plugins.xml
+-- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/include/web_video_server/web_video_server/multipart_stream.hpp
+-- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/include/web_video_server/web_video_server/streamer.hpp
+-- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/include/web_video_server/web_video_server/streamers/h264_streamer.hpp
+-- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/include/web_video_server/web_video_server/streamers/image_transport_streamer.hpp
+-- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/include/web_video_server/web_video_server/streamers/jpeg_streamers.hpp
+-- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/include/web_video_server/web_video_server/streamers/libav_streamer.hpp
+-- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/include/web_video_server/web_video_server/streamers/png_streamers.hpp
+-- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/include/web_video_server/web_video_server/streamers/ros_compressed_streamer.hpp
+-- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/include/web_video_server/web_video_server/streamers/vp8_streamer.hpp
+-- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/include/web_video_server/web_video_server/streamers/vp9_streamer.hpp
+-- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/include/web_video_server/web_video_server/utils.hpp
+-- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/include/web_video_server/web_video_server/web_video_server.hpp
+-- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/share/web_video_server/environment/library_path.sh
+-- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/share/web_video_server/environment/library_path.dsv
+-- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/lib/web_video_server/web_video_server
+-- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/share/ament_index/resource_index/package_run_dependencies/web_video_server
+-- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/share/ament_index/resource_index/parent_prefix_path/web_video_server
+-- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/share/web_video_server/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/share/web_video_server/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/share/web_video_server/environment/path.sh
+-- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/share/web_video_server/environment/path.dsv
+-- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/share/web_video_server/local_setup.bash
+-- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/share/web_video_server/local_setup.sh
+-- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/share/web_video_server/local_setup.zsh
+-- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/share/web_video_server/local_setup.dsv
+-- Symlinking: /home/mirte/mirte_ws/install/web_video_server/share/web_video_server/package.dsv
+-- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/share/ament_index/resource_index/packages/web_video_server
+-- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/share/ament_index/resource_index/web_video_server__pluginlib__plugin/web_video_server
+-- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/share/ament_index/resource_index/rclcpp_components/web_video_server
+-- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/share/web_video_server/cmake/config-extras.cmake
+-- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/share/web_video_server/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/share/web_video_server/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/share/web_video_server/cmake/web_video_serverConfig.cmake
+-- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/share/web_video_server/cmake/web_video_serverConfig-version.cmake
+-- Up-to-date symlink: /home/mirte/mirte_ws/install/web_video_server/share/web_video_server/package.xml
+-- Up-to-date: /home/mirte/mirte_ws/install/web_video_server/lib/libweb_video_server.so
+-- Up-to-date: /home/mirte/mirte_ws/install/web_video_server/lib/libweb_video_server_streamers.so
+-- Up-to-date: /home/mirte/mirte_ws/install/web_video_server/share/web_video_server/cmake/export_web_video_serverExport.cmake
+-- Up-to-date: /home/mirte/mirte_ws/install/web_video_server/share/web_video_server/cmake/export_web_video_serverExport-release.cmake

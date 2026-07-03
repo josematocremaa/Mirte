@@ -1,0 +1,1 @@
+/home/mirte/mirte_ws/build/orbbec_camera_msgs/rosidl_typesupport_fastrtps_c/orbbec_camera_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h

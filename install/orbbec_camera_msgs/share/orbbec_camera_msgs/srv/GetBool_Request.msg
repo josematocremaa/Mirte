@@ -1,0 +1,1 @@
+/home/mirte/mirte_ws/build/orbbec_camera_msgs/rosidl_cmake/srv/GetBool_Request.msg

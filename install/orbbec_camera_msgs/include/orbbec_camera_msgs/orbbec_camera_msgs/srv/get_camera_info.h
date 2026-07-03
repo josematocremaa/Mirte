@@ -1,0 +1,1 @@
+/home/mirte/mirte_ws/build/orbbec_camera_msgs/rosidl_generator_c/orbbec_camera_msgs/srv/get_camera_info.h

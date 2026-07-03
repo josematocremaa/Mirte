@@ -1,0 +1,12 @@
+/home/mirte/mirte_ws/build/web_video_server/CMakeFiles/uninstall.dir
+/home/mirte/mirte_ws/build/web_video_server/CMakeFiles/web_video_server_uninstall.dir
+/home/mirte/mirte_ws/build/web_video_server/CMakeFiles/web_video_server.dir
+/home/mirte/mirte_ws/build/web_video_server/CMakeFiles/web_video_server_streamers.dir
+/home/mirte/mirte_ws/build/web_video_server/CMakeFiles/web_video_server_node.dir
+/home/mirte/mirte_ws/build/web_video_server/CMakeFiles/test.dir
+/home/mirte/mirte_ws/build/web_video_server/CMakeFiles/edit_cache.dir
+/home/mirte/mirte_ws/build/web_video_server/CMakeFiles/rebuild_cache.dir
+/home/mirte/mirte_ws/build/web_video_server/CMakeFiles/list_install_components.dir
+/home/mirte/mirte_ws/build/web_video_server/CMakeFiles/install.dir
+/home/mirte/mirte_ws/build/web_video_server/CMakeFiles/install/local.dir
+/home/mirte/mirte_ws/build/web_video_server/CMakeFiles/install/strip.dir

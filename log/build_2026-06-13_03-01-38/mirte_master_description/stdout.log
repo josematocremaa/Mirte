@@ -1,0 +1,80 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- X=launch
+-- X=urdf
+-- X=meshes
+-- X=config
+-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mirte/mirte_ws/build/mirte_master_description
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//launch/rviz.launch.xml
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//urdf/arm.xacro
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//urdf/flag.xacro
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//urdf/lidar.xacro
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//urdf/mirte_master.xacro
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//urdf/mirte_master_base.gazebo.xacro
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//urdf/orbbec_astra_plus_pro.xacro
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//urdf/ros2_control.xacro
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//urdf/ultrasonic.xacro
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//urdf/wheel.gazebo.xacro
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//urdf/wheel.xacro
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/Gripper.STL
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/_Gripper_r.STL
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/_gripper_link_l.STL
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/_gripper_link_r.STL
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/arm_Elbow.STL
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/arm_Rot.STL
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/arm_Shoulder.STL
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/arm_Wrist.STL
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/cam_front.STL
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/depth_cam.STL
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/flag.STL
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/frame_link.STL
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/gripper_finger_l.STL
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/gripper_finger_r.STL
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/lidar.STL
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/orbbec_astra.stl
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/screen.STL
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/ultrasonic_bl.STL
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/ultrasonic_br.STL
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/ultrasonic_fl.STL
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/ultrasonic_fr.STL
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/wheel_left.STL
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//meshes/wheel_right.STL
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//config/control_master.yaml
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//config/joint_names_mirte_master.yaml
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//config/mirte_base_control.yaml
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description//config/mirte_diff_drive.yaml
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/ament_index/resource_index/package_run_dependencies/mirte_master_description
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/ament_index/resource_index/parent_prefix_path/mirte_master_description
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description/environment/ament_prefix_path.sh
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description/environment/ament_prefix_path.dsv
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description/environment/path.sh
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description/environment/path.dsv
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description/local_setup.bash
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description/local_setup.sh
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description/local_setup.zsh
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description/local_setup.dsv
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description/package.dsv
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/ament_index/resource_index/packages/mirte_master_description
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description/cmake/mirte_master_descriptionConfig.cmake
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description/cmake/mirte_master_descriptionConfig-version.cmake
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_master_description/share/mirte_master_description/package.xml

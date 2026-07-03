@@ -1,0 +1,24 @@
+running develop
+running egg_info
+creating mirte_test.egg-info
+writing mirte_test.egg-info/PKG-INFO
+writing dependency_links to mirte_test.egg-info/dependency_links.txt
+writing entry points to mirte_test.egg-info/entry_points.txt
+writing requirements to mirte_test.egg-info/requires.txt
+writing top-level names to mirte_test.egg-info/top_level.txt
+writing manifest file 'mirte_test.egg-info/SOURCES.txt'
+reading manifest file 'mirte_test.egg-info/SOURCES.txt'
+writing manifest file 'mirte_test.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/mirte/mirte_ws/install/mirte_test/lib/python3.10/site-packages/mirte-test.egg-link (link to .)
+Installing mirte_master_calibrate script to /home/mirte/mirte_ws/install/mirte_test/lib/mirte_test
+Installing mirte_master_hw_check script to /home/mirte/mirte_ws/install/mirte_test/lib/mirte_test
+Installing mirte_master_set_voltage_ranges script to /home/mirte/mirte_ws/install/mirte_test/lib/mirte_test
+
+Installed /home/mirte/mirte_ws/build/mirte_test
+running symlink_data
+creating /home/mirte/mirte_ws/install/mirte_test/share/ament_index
+creating /home/mirte/mirte_ws/install/mirte_test/share/ament_index/resource_index
+creating /home/mirte/mirte_ws/install/mirte_test/share/ament_index/resource_index/packages
+symbolically linking /home/mirte/mirte_ws/build/mirte_test/resource/mirte_test -> /home/mirte/mirte_ws/install/mirte_test/share/ament_index/resource_index/packages
+symbolically linking /home/mirte/mirte_ws/build/mirte_test/package.xml -> /home/mirte/mirte_ws/install/mirte_test/share/mirte_test

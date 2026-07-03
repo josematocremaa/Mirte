@@ -1,0 +1,17 @@
+{
+  "package_name": "orbbec_camera_msgs",
+  "non_idl_tuples": [
+    "/home/mirte/mirte_ws/src/orbbecsdk_ros2/orbbec_camera_msgs:msg/DeviceInfo.msg",
+    "/home/mirte/mirte_ws/src/orbbecsdk_ros2/orbbec_camera_msgs:msg/Extrinsics.msg",
+    "/home/mirte/mirte_ws/src/orbbecsdk_ros2/orbbec_camera_msgs:msg/Metadata.msg",
+    "/home/mirte/mirte_ws/src/orbbecsdk_ros2/orbbec_camera_msgs:msg/IMUInfo.msg",
+    "/home/mirte/mirte_ws/src/orbbecsdk_ros2/orbbec_camera_msgs:msg/RGBD.msg",
+    "/home/mirte/mirte_ws/src/orbbecsdk_ros2/orbbec_camera_msgs:srv/GetBool.srv",
+    "/home/mirte/mirte_ws/src/orbbecsdk_ros2/orbbec_camera_msgs:srv/GetDeviceInfo.srv",
+    "/home/mirte/mirte_ws/src/orbbecsdk_ros2/orbbec_camera_msgs:srv/GetCameraInfo.srv",
+    "/home/mirte/mirte_ws/src/orbbecsdk_ros2/orbbec_camera_msgs:srv/GetInt32.srv",
+    "/home/mirte/mirte_ws/src/orbbecsdk_ros2/orbbec_camera_msgs:srv/GetString.srv",
+    "/home/mirte/mirte_ws/src/orbbecsdk_ros2/orbbec_camera_msgs:srv/SetInt32.srv",
+    "/home/mirte/mirte_ws/src/orbbecsdk_ros2/orbbec_camera_msgs:srv/SetString.srv"
+  ]
+}

@@ -1,0 +1,1 @@
+/home/mirte/mirte_ws/src/rplidar_ros/launch/rplidar_a1_launch.py

@@ -1,0 +1,40 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mirte/mirte_ws/build/mirte_zenoh_setup
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_zenoh_setup/share/mirte_zenoh_setup/environment/mirte_zenoh_setup.sh
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_zenoh_setup/share/mirte_zenoh_setup//config/router_client_config.json5.in
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_zenoh_setup/share/mirte_zenoh_setup//config/router_robot_config.json5
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_zenoh_setup/share/mirte_zenoh_setup//config/session_config.json5
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_zenoh_setup/share/ament_index/resource_index/package_run_dependencies/mirte_zenoh_setup
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_zenoh_setup/share/ament_index/resource_index/parent_prefix_path/mirte_zenoh_setup
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_zenoh_setup/share/mirte_zenoh_setup/environment/ament_prefix_path.sh
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_zenoh_setup/share/mirte_zenoh_setup/environment/ament_prefix_path.dsv
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_zenoh_setup/share/mirte_zenoh_setup/environment/path.sh
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_zenoh_setup/share/mirte_zenoh_setup/environment/path.dsv
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_zenoh_setup/share/mirte_zenoh_setup/local_setup.bash
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_zenoh_setup/share/mirte_zenoh_setup/local_setup.sh
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_zenoh_setup/share/mirte_zenoh_setup/local_setup.zsh
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_zenoh_setup/share/mirte_zenoh_setup/local_setup.dsv
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_zenoh_setup/share/mirte_zenoh_setup/package.dsv
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_zenoh_setup/share/ament_index/resource_index/packages/mirte_zenoh_setup
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_zenoh_setup/share/mirte_zenoh_setup/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_zenoh_setup/share/mirte_zenoh_setup/cmake/mirte_zenoh_setupConfig.cmake
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_zenoh_setup/share/mirte_zenoh_setup/cmake/mirte_zenoh_setupConfig-version.cmake
+-- Symlinking: /home/mirte/mirte_ws/install/mirte_zenoh_setup/share/mirte_zenoh_setup/package.xml

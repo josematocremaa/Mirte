@@ -1,0 +1,8 @@
+source;share/mirte_fastdds_discovery_setup/hook/cmake_prefix_path.ps1
+source;share/mirte_fastdds_discovery_setup/hook/cmake_prefix_path.dsv
+source;share/mirte_fastdds_discovery_setup/hook/cmake_prefix_path.sh
+source;share/mirte_fastdds_discovery_setup/local_setup.bash
+source;share/mirte_fastdds_discovery_setup/local_setup.dsv
+source;share/mirte_fastdds_discovery_setup/local_setup.ps1
+source;share/mirte_fastdds_discovery_setup/local_setup.sh
+source;share/mirte_fastdds_discovery_setup/local_setup.zsh

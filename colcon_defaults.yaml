@@ -1,0 +1,5 @@
+# Default colcon build options for the Mirte workspace
+build:
+  symlink-install: true
+  mixin: 
+    - "ccache"

@@ -1,0 +1,19 @@
+[0.488s] Invoking command in '/home/mirte/mirte_ws/build/mirte_test': PYTHONPATH=/home/mirte/mirte_ws/build/mirte_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mirte/mirte_ws/install/mirte_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mirte/mirte_ws/build/mirte_test/build --no-deps symlink_data
+[0.681s] running develop
+[0.767s] running egg_info
+[0.767s] writing mirte_test.egg-info/PKG-INFO
+[0.767s] writing dependency_links to mirte_test.egg-info/dependency_links.txt
+[0.767s] writing entry points to mirte_test.egg-info/entry_points.txt
+[0.768s] writing requirements to mirte_test.egg-info/requires.txt
+[0.769s] writing top-level names to mirte_test.egg-info/top_level.txt
+[0.769s] reading manifest file 'mirte_test.egg-info/SOURCES.txt'
+[0.770s] writing manifest file 'mirte_test.egg-info/SOURCES.txt'
+[0.771s] running build_ext
+[0.771s] Creating /home/mirte/mirte_ws/install/mirte_test/lib/python3.10/site-packages/mirte-test.egg-link (link to .)
+[0.772s] Installing mirte_master_calibrate script to /home/mirte/mirte_ws/install/mirte_test/lib/mirte_test
+[0.772s] Installing mirte_master_hw_check script to /home/mirte/mirte_ws/install/mirte_test/lib/mirte_test
+[0.772s] Installing mirte_master_set_voltage_ranges script to /home/mirte/mirte_ws/install/mirte_test/lib/mirte_test
+[0.773s] 
+[0.773s] Installed /home/mirte/mirte_ws/build/mirte_test
+[0.773s] running symlink_data
+[0.797s] Invoked command in '/home/mirte/mirte_ws/build/mirte_test' returned '0': PYTHONPATH=/home/mirte/mirte_ws/build/mirte_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mirte/mirte_ws/install/mirte_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mirte/mirte_ws/build/mirte_test/build --no-deps symlink_data

@@ -1,0 +1,678 @@
+[0.077s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '--packages-select', 'mirte_teleop', '-p']
+[0.077s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['mirte_teleop'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffa906e2f910>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0xffa906fd0340>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0xffa906fd0340>>, mixin_verb=('list',))
+[0.162s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.163s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.163s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.163s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.163s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.163s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.163s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mirte/mirte_ws/src'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(libuvc) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(libuvc) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(libuvc) by extension 'ignore_ament_install'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(libuvc) by extensions ['colcon_pkg']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(libuvc) by extension 'colcon_pkg'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(libuvc) by extensions ['colcon_meta']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(libuvc) by extension 'colcon_meta'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(libuvc) by extensions ['ros']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(libuvc) by extension 'ros'
+[0.174s] DEBUG:colcon.colcon_core.package_identification:Package 'libuvc' with type 'ros.ament_cmake' and name 'libuvc'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages) by extensions ['ignore', 'ignore_ament_install']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages) by extension 'ignore'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages) by extension 'ignore_ament_install'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages) by extensions ['colcon_pkg']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages) by extension 'colcon_pkg'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages) by extensions ['colcon_meta']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages) by extension 'colcon_meta'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages) by extensions ['ros']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages) by extension 'ros'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages) by extensions ['cmake', 'python']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages) by extension 'cmake'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages) by extension 'python'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages) by extensions ['python_setup_py']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages) by extension 'python_setup_py'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_bringup) by extension 'ignore'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_bringup) by extension 'ignore_ament_install'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_bringup) by extensions ['colcon_pkg']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_bringup) by extension 'colcon_pkg'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_bringup) by extensions ['colcon_meta']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_bringup) by extension 'colcon_meta'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_bringup) by extensions ['ros']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_bringup) by extension 'ros'
+[0.175s] DEBUG:colcon.colcon_core.package_identification:Package 'mirte-ros-packages/mirte_bringup' with type 'ros.ament_cmake' and name 'mirte_bringup'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control) by extensions ['ignore', 'ignore_ament_install']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control) by extension 'ignore'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control) by extension 'ignore_ament_install'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control) by extensions ['colcon_pkg']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control) by extension 'colcon_pkg'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control) by extensions ['colcon_meta']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control) by extension 'colcon_meta'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control) by extensions ['ros']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control) by extension 'ros'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control) by extensions ['cmake', 'python']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control) by extension 'cmake'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control) by extension 'python'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control) by extensions ['python_setup_py']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control) by extension 'python_setup_py'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control/mirte_master_arm_control) by extensions ['ignore', 'ignore_ament_install']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control/mirte_master_arm_control) by extension 'ignore'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control/mirte_master_arm_control) by extension 'ignore_ament_install'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control/mirte_master_arm_control) by extensions ['colcon_pkg']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control/mirte_master_arm_control) by extension 'colcon_pkg'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control/mirte_master_arm_control) by extensions ['colcon_meta']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control/mirte_master_arm_control) by extension 'colcon_meta'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control/mirte_master_arm_control) by extensions ['ros']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control/mirte_master_arm_control) by extension 'ros'
+[0.177s] DEBUG:colcon.colcon_core.package_identification:Package 'mirte-ros-packages/mirte_control/mirte_master_arm_control' with type 'ros.ament_cmake' and name 'mirte_master_arm_control'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control/mirte_master_base_control) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control/mirte_master_base_control) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control/mirte_master_base_control) by extension 'ignore_ament_install'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control/mirte_master_base_control) by extensions ['colcon_pkg']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control/mirte_master_base_control) by extension 'colcon_pkg'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control/mirte_master_base_control) by extensions ['colcon_meta']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control/mirte_master_base_control) by extension 'colcon_meta'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control/mirte_master_base_control) by extensions ['ros']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control/mirte_master_base_control) by extension 'ros'
+[0.179s] DEBUG:colcon.colcon_core.package_identification:Package 'mirte-ros-packages/mirte_control/mirte_master_base_control' with type 'ros.ament_cmake' and name 'mirte_base_control'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control/mirte_pioneer_control) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control/mirte_pioneer_control) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control/mirte_pioneer_control) by extension 'ignore_ament_install'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control/mirte_pioneer_control) by extensions ['colcon_pkg']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control/mirte_pioneer_control) by extension 'colcon_pkg'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control/mirte_pioneer_control) by extensions ['colcon_meta']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control/mirte_pioneer_control) by extension 'colcon_meta'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control/mirte_pioneer_control) by extensions ['ros']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control/mirte_pioneer_control) by extension 'ros'
+[0.180s] DEBUG:colcon.colcon_core.package_identification:Package 'mirte-ros-packages/mirte_control/mirte_pioneer_control' with type 'ros.ament_cmake' and name 'mirte_control'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_description) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_description) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_description) by extension 'ignore_ament_install'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_description) by extensions ['colcon_pkg']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_description) by extension 'colcon_pkg'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_description) by extensions ['colcon_meta']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_description) by extension 'colcon_meta'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_description) by extensions ['ros']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_description) by extension 'ros'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_description) by extensions ['cmake', 'python']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_description) by extension 'cmake'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_description) by extension 'python'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_description) by extensions ['python_setup_py']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_description) by extension 'python_setup_py'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_description/mirte_master_description) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_description/mirte_master_description) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_description/mirte_master_description) by extension 'ignore_ament_install'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_description/mirte_master_description) by extensions ['colcon_pkg']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_description/mirte_master_description) by extension 'colcon_pkg'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_description/mirte_master_description) by extensions ['colcon_meta']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_description/mirte_master_description) by extension 'colcon_meta'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_description/mirte_master_description) by extensions ['ros']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_description/mirte_master_description) by extension 'ros'
+[0.181s] DEBUG:colcon.colcon_core.package_identification:Package 'mirte-ros-packages/mirte_description/mirte_master_description' with type 'ros.ament_cmake' and name 'mirte_master_description'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_description/mirte_pioneer_description) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_description/mirte_pioneer_description) by extension 'ignore'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_description/mirte_pioneer_description) by extension 'ignore_ament_install'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_description/mirte_pioneer_description) by extensions ['colcon_pkg']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_description/mirte_pioneer_description) by extension 'colcon_pkg'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_description/mirte_pioneer_description) by extensions ['colcon_meta']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_description/mirte_pioneer_description) by extension 'colcon_meta'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_description/mirte_pioneer_description) by extensions ['ros']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_description/mirte_pioneer_description) by extension 'ros'
+[0.182s] DEBUG:colcon.colcon_core.package_identification:Package 'mirte-ros-packages/mirte_description/mirte_pioneer_description' with type 'ros.ament_cmake' and name 'mirte_pioneer_description'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_fastdds_discovery_setup) by extensions ['ignore', 'ignore_ament_install']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_fastdds_discovery_setup) by extension 'ignore'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_fastdds_discovery_setup) by extension 'ignore_ament_install'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_fastdds_discovery_setup) by extensions ['colcon_pkg']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_fastdds_discovery_setup) by extension 'colcon_pkg'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_fastdds_discovery_setup) by extensions ['colcon_meta']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_fastdds_discovery_setup) by extension 'colcon_meta'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_fastdds_discovery_setup) by extensions ['ros']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_fastdds_discovery_setup) by extension 'ros'
+[0.183s] DEBUG:colcon.colcon_core.package_identification:Package 'mirte-ros-packages/mirte_fastdds_discovery_setup' with type 'ros.ament_cmake' and name 'mirte_fastdds_discovery_setup'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_moveit_config) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_moveit_config) by extension 'ignore_ament_install'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_moveit_config) by extensions ['colcon_pkg']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_moveit_config) by extension 'colcon_pkg'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_moveit_config) by extensions ['colcon_meta']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_moveit_config) by extension 'colcon_meta'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_moveit_config) by extensions ['ros']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_moveit_config) by extension 'ros'
+[0.184s] DEBUG:colcon.colcon_core.package_identification:Package 'mirte-ros-packages/mirte_moveit_config' with type 'ros.ament_cmake' and name 'mirte_moveit_config'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_msgs) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_msgs) ignored
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_telemetrix_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_telemetrix_cpp) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_telemetrix_cpp) ignored
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_teleop) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_teleop) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_teleop) by extension 'ignore_ament_install'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_teleop) by extensions ['colcon_pkg']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_teleop) by extension 'colcon_pkg'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_teleop) by extensions ['colcon_meta']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_teleop) by extension 'colcon_meta'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_teleop) by extensions ['ros']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_teleop) by extension 'ros'
+[0.185s] DEBUG:colcon.colcon_core.package_identification:Package 'mirte-ros-packages/mirte_teleop' with type 'ros.ament_cmake' and name 'mirte_teleop'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_test) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_test) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_test) by extension 'ignore_ament_install'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_test) by extensions ['colcon_pkg']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_test) by extension 'colcon_pkg'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_test) by extensions ['colcon_meta']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_test) by extension 'colcon_meta'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_test) by extensions ['ros']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_test) by extension 'ros'
+[0.186s] DEBUG:colcon.colcon_core.package_identification:Package 'mirte-ros-packages/mirte_test' with type 'ros.ament_python' and name 'mirte_test'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_zenoh_setup) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_zenoh_setup) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_zenoh_setup) by extension 'ignore_ament_install'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_zenoh_setup) by extensions ['colcon_pkg']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_zenoh_setup) by extension 'colcon_pkg'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_zenoh_setup) by extensions ['colcon_meta']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_zenoh_setup) by extension 'colcon_meta'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_zenoh_setup) by extensions ['ros']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_zenoh_setup) by extension 'ros'
+[0.186s] DEBUG:colcon.colcon_core.package_identification:Package 'mirte-ros-packages/mirte_zenoh_setup' with type 'ros.ament_cmake' and name 'mirte_zenoh_setup'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2) by extension 'ignore_ament_install'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2) by extensions ['colcon_pkg']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2) by extension 'colcon_pkg'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2) by extensions ['colcon_meta']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2) by extension 'colcon_meta'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2) by extensions ['ros']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2) by extension 'ros'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2) by extensions ['cmake', 'python']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2) by extension 'cmake'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2) by extension 'python'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2) by extensions ['python_setup_py']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2) by extension 'python_setup_py'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/docs) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/docs) by extension 'ignore_ament_install'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/docs) by extensions ['colcon_pkg']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/docs) by extension 'colcon_pkg'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/docs) by extensions ['colcon_meta']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/docs) by extension 'colcon_meta'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/docs) by extensions ['ros']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/docs) by extension 'ros'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/docs) by extensions ['cmake', 'python']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/docs) by extension 'cmake'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/docs) by extension 'python'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/docs) by extensions ['python_setup_py']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/docs) by extension 'python_setup_py'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/docs/images) by extensions ['ignore', 'ignore_ament_install']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/docs/images) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/docs/images) by extension 'ignore_ament_install'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/docs/images) by extensions ['colcon_pkg']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/docs/images) by extension 'colcon_pkg'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/docs/images) by extensions ['colcon_meta']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/docs/images) by extension 'colcon_meta'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/docs/images) by extensions ['ros']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/docs/images) by extension 'ros'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/docs/images) by extensions ['cmake', 'python']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/docs/images) by extension 'cmake'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/docs/images) by extension 'python'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/docs/images) by extensions ['python_setup_py']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/docs/images) by extension 'python_setup_py'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/orbbec_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/orbbec_camera) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/orbbec_camera) by extension 'ignore_ament_install'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/orbbec_camera) by extensions ['colcon_pkg']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/orbbec_camera) by extension 'colcon_pkg'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/orbbec_camera) by extensions ['colcon_meta']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/orbbec_camera) by extension 'colcon_meta'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/orbbec_camera) by extensions ['ros']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/orbbec_camera) by extension 'ros'
+[0.190s] DEBUG:colcon.colcon_core.package_identification:Package 'orbbecsdk_ros2/orbbec_camera' with type 'ros.ament_cmake' and name 'orbbec_camera'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/orbbec_camera_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/orbbec_camera_msgs) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/orbbec_camera_msgs) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/orbbec_camera_msgs) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/orbbec_camera_msgs) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/orbbec_camera_msgs) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/orbbec_camera_msgs) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/orbbec_camera_msgs) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/orbbec_camera_msgs) by extension 'ros'
+[0.191s] DEBUG:colcon.colcon_core.package_identification:Package 'orbbecsdk_ros2/orbbec_camera_msgs' with type 'ros.ament_cmake' and name 'orbbec_camera_msgs'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/orbbec_description) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/orbbec_description) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/orbbec_description) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/orbbec_description) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/orbbec_description) by extension 'colcon_pkg'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/orbbec_description) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/orbbec_description) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/orbbec_description) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/orbbec_description) by extension 'ros'
+[0.192s] DEBUG:colcon.colcon_core.package_identification:Package 'orbbecsdk_ros2/orbbec_description' with type 'ros.ament_cmake' and name 'orbbec_description'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_astra_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_astra_camera) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_astra_camera) by extension 'ignore_ament_install'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_astra_camera) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_astra_camera) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_astra_camera) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_astra_camera) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_astra_camera) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_astra_camera) by extension 'ros'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_astra_camera) by extensions ['cmake', 'python']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_astra_camera) by extension 'cmake'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_astra_camera) by extension 'python'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_astra_camera) by extensions ['python_setup_py']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_astra_camera) by extension 'python_setup_py'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_astra_camera/astra_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_astra_camera/astra_camera) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_astra_camera/astra_camera) by extension 'ignore_ament_install'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_astra_camera/astra_camera) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_astra_camera/astra_camera) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_astra_camera/astra_camera) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_astra_camera/astra_camera) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_astra_camera/astra_camera) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_astra_camera/astra_camera) by extension 'ros'
+[0.195s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_astra_camera/astra_camera' with type 'ros.ament_cmake' and name 'astra_camera'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_astra_camera/astra_camera_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_astra_camera/astra_camera_msgs) by extension 'ignore'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_astra_camera/astra_camera_msgs) by extension 'ignore_ament_install'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_astra_camera/astra_camera_msgs) by extensions ['colcon_pkg']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_astra_camera/astra_camera_msgs) by extension 'colcon_pkg'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_astra_camera/astra_camera_msgs) by extensions ['colcon_meta']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_astra_camera/astra_camera_msgs) by extension 'colcon_meta'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_astra_camera/astra_camera_msgs) by extensions ['ros']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_astra_camera/astra_camera_msgs) by extension 'ros'
+[0.196s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_astra_camera/astra_camera_msgs' with type 'ros.ament_cmake' and name 'astra_camera_msgs'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(usb_cam) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(usb_cam) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(usb_cam) by extension 'ignore_ament_install'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(usb_cam) by extensions ['colcon_pkg']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(usb_cam) by extension 'colcon_pkg'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(usb_cam) by extensions ['colcon_meta']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(usb_cam) by extension 'colcon_meta'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(usb_cam) by extensions ['ros']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(usb_cam) by extension 'ros'
+[0.197s] DEBUG:colcon.colcon_core.package_identification:Package 'usb_cam' with type 'ros.ament_cmake' and name 'usb_cam'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(web_video_server) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(web_video_server) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(web_video_server) by extension 'ignore_ament_install'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(web_video_server) by extensions ['colcon_pkg']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(web_video_server) by extension 'colcon_pkg'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(web_video_server) by extensions ['colcon_meta']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(web_video_server) by extension 'colcon_meta'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(web_video_server) by extensions ['ros']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(web_video_server) by extension 'ros'
+[0.199s] DEBUG:colcon.colcon_core.package_identification:Package 'web_video_server' with type 'ros.ament_cmake' and name 'web_video_server'
+[0.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.216s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'astra_camera_msgs' in 'ros2_astra_camera/astra_camera_msgs'
+[0.216s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'libuvc' in 'libuvc'
+[0.216s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mirte_base_control' in 'mirte-ros-packages/mirte_control/mirte_master_base_control'
+[0.216s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mirte_control' in 'mirte-ros-packages/mirte_control/mirte_pioneer_control'
+[0.216s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mirte_fastdds_discovery_setup' in 'mirte-ros-packages/mirte_fastdds_discovery_setup'
+[0.216s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mirte_master_description' in 'mirte-ros-packages/mirte_description/mirte_master_description'
+[0.216s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mirte_pioneer_description' in 'mirte-ros-packages/mirte_description/mirte_pioneer_description'
+[0.216s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mirte_test' in 'mirte-ros-packages/mirte_test'
+[0.216s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mirte_zenoh_setup' in 'mirte-ros-packages/mirte_zenoh_setup'
+[0.216s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'orbbec_camera_msgs' in 'orbbecsdk_ros2/orbbec_camera_msgs'
+[0.216s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'orbbec_description' in 'orbbecsdk_ros2/orbbec_description'
+[0.216s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'usb_cam' in 'usb_cam'
+[0.216s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'web_video_server' in 'web_video_server'
+[0.216s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'astra_camera' in 'ros2_astra_camera/astra_camera'
+[0.216s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mirte_bringup' in 'mirte-ros-packages/mirte_bringup'
+[0.216s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mirte_master_arm_control' in 'mirte-ros-packages/mirte_control/mirte_master_arm_control'
+[0.216s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mirte_moveit_config' in 'mirte-ros-packages/mirte_moveit_config'
+[0.216s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'orbbec_camera' in 'orbbecsdk_ros2/orbbec_camera'
+[0.080s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '--packages-select', 'astra_camera', '-p']
+[0.080s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['astra_camera'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xff396229f910>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0xff3962440340>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0xff3962440340>>, mixin_verb=('list',))
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.169s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mirte/mirte_ws/src'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(libuvc) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(libuvc) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(libuvc) by extension 'ignore_ament_install'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(libuvc) by extensions ['colcon_pkg']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(libuvc) by extension 'colcon_pkg'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(libuvc) by extensions ['colcon_meta']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(libuvc) by extension 'colcon_meta'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(libuvc) by extensions ['ros']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(libuvc) by extension 'ros'
+[0.181s] DEBUG:colcon.colcon_core.package_identification:Package 'libuvc' with type 'ros.ament_cmake' and name 'libuvc'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages) by extension 'ignore_ament_install'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages) by extensions ['colcon_pkg']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages) by extension 'colcon_pkg'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages) by extensions ['colcon_meta']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages) by extension 'colcon_meta'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages) by extensions ['ros']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages) by extension 'ros'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages) by extensions ['cmake', 'python']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages) by extension 'cmake'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages) by extension 'python'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages) by extensions ['python_setup_py']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages) by extension 'python_setup_py'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_bringup) by extension 'ignore'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_bringup) by extension 'ignore_ament_install'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_bringup) by extensions ['colcon_pkg']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_bringup) by extension 'colcon_pkg'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_bringup) by extensions ['colcon_meta']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_bringup) by extension 'colcon_meta'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_bringup) by extensions ['ros']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_bringup) by extension 'ros'
+[0.182s] DEBUG:colcon.colcon_core.package_identification:Package 'mirte-ros-packages/mirte_bringup' with type 'ros.ament_cmake' and name 'mirte_bringup'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control) by extensions ['ignore', 'ignore_ament_install']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control) by extension 'ignore_ament_install'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control) by extensions ['colcon_pkg']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control) by extension 'colcon_pkg'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control) by extensions ['colcon_meta']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control) by extension 'colcon_meta'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control) by extensions ['ros']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control) by extension 'ros'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control) by extensions ['cmake', 'python']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control) by extension 'cmake'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control) by extension 'python'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control) by extensions ['python_setup_py']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control) by extension 'python_setup_py'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control/mirte_master_arm_control) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control/mirte_master_arm_control) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control/mirte_master_arm_control) by extension 'ignore_ament_install'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control/mirte_master_arm_control) by extensions ['colcon_pkg']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control/mirte_master_arm_control) by extension 'colcon_pkg'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control/mirte_master_arm_control) by extensions ['colcon_meta']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control/mirte_master_arm_control) by extension 'colcon_meta'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control/mirte_master_arm_control) by extensions ['ros']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control/mirte_master_arm_control) by extension 'ros'
+[0.184s] DEBUG:colcon.colcon_core.package_identification:Package 'mirte-ros-packages/mirte_control/mirte_master_arm_control' with type 'ros.ament_cmake' and name 'mirte_master_arm_control'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control/mirte_master_base_control) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control/mirte_master_base_control) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control/mirte_master_base_control) by extension 'ignore_ament_install'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control/mirte_master_base_control) by extensions ['colcon_pkg']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control/mirte_master_base_control) by extension 'colcon_pkg'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control/mirte_master_base_control) by extensions ['colcon_meta']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control/mirte_master_base_control) by extension 'colcon_meta'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control/mirte_master_base_control) by extensions ['ros']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control/mirte_master_base_control) by extension 'ros'
+[0.186s] DEBUG:colcon.colcon_core.package_identification:Package 'mirte-ros-packages/mirte_control/mirte_master_base_control' with type 'ros.ament_cmake' and name 'mirte_base_control'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control/mirte_pioneer_control) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control/mirte_pioneer_control) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control/mirte_pioneer_control) by extension 'ignore_ament_install'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control/mirte_pioneer_control) by extensions ['colcon_pkg']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control/mirte_pioneer_control) by extension 'colcon_pkg'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control/mirte_pioneer_control) by extensions ['colcon_meta']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control/mirte_pioneer_control) by extension 'colcon_meta'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control/mirte_pioneer_control) by extensions ['ros']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_control/mirte_pioneer_control) by extension 'ros'
+[0.187s] DEBUG:colcon.colcon_core.package_identification:Package 'mirte-ros-packages/mirte_control/mirte_pioneer_control' with type 'ros.ament_cmake' and name 'mirte_control'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_description) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_description) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_description) by extension 'ignore_ament_install'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_description) by extensions ['colcon_pkg']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_description) by extension 'colcon_pkg'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_description) by extensions ['colcon_meta']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_description) by extension 'colcon_meta'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_description) by extensions ['ros']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_description) by extension 'ros'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_description) by extensions ['cmake', 'python']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_description) by extension 'cmake'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_description) by extension 'python'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_description) by extensions ['python_setup_py']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_description) by extension 'python_setup_py'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_description/mirte_master_description) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_description/mirte_master_description) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_description/mirte_master_description) by extension 'ignore_ament_install'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_description/mirte_master_description) by extensions ['colcon_pkg']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_description/mirte_master_description) by extension 'colcon_pkg'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_description/mirte_master_description) by extensions ['colcon_meta']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_description/mirte_master_description) by extension 'colcon_meta'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_description/mirte_master_description) by extensions ['ros']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_description/mirte_master_description) by extension 'ros'
+[0.189s] DEBUG:colcon.colcon_core.package_identification:Package 'mirte-ros-packages/mirte_description/mirte_master_description' with type 'ros.ament_cmake' and name 'mirte_master_description'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_description/mirte_pioneer_description) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_description/mirte_pioneer_description) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_description/mirte_pioneer_description) by extension 'ignore_ament_install'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_description/mirte_pioneer_description) by extensions ['colcon_pkg']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_description/mirte_pioneer_description) by extension 'colcon_pkg'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_description/mirte_pioneer_description) by extensions ['colcon_meta']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_description/mirte_pioneer_description) by extension 'colcon_meta'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_description/mirte_pioneer_description) by extensions ['ros']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_description/mirte_pioneer_description) by extension 'ros'
+[0.189s] DEBUG:colcon.colcon_core.package_identification:Package 'mirte-ros-packages/mirte_description/mirte_pioneer_description' with type 'ros.ament_cmake' and name 'mirte_pioneer_description'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_fastdds_discovery_setup) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_fastdds_discovery_setup) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_fastdds_discovery_setup) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_fastdds_discovery_setup) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_fastdds_discovery_setup) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_fastdds_discovery_setup) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_fastdds_discovery_setup) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_fastdds_discovery_setup) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_fastdds_discovery_setup) by extension 'ros'
+[0.190s] DEBUG:colcon.colcon_core.package_identification:Package 'mirte-ros-packages/mirte_fastdds_discovery_setup' with type 'ros.ament_cmake' and name 'mirte_fastdds_discovery_setup'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_moveit_config) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_moveit_config) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_moveit_config) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_moveit_config) by extension 'colcon_pkg'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_moveit_config) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_moveit_config) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_moveit_config) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_moveit_config) by extension 'ros'
+[0.191s] DEBUG:colcon.colcon_core.package_identification:Package 'mirte-ros-packages/mirte_moveit_config' with type 'ros.ament_cmake' and name 'mirte_moveit_config'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_msgs) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_msgs) ignored
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_telemetrix_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_telemetrix_cpp) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_telemetrix_cpp) ignored
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_teleop) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_teleop) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_teleop) ignored
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_test) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_test) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_test) by extension 'ignore_ament_install'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_test) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_test) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_test) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_test) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_test) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_test) by extension 'ros'
+[0.193s] DEBUG:colcon.colcon_core.package_identification:Package 'mirte-ros-packages/mirte_test' with type 'ros.ament_python' and name 'mirte_test'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_zenoh_setup) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_zenoh_setup) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_zenoh_setup) by extension 'ignore_ament_install'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_zenoh_setup) by extensions ['colcon_pkg']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_zenoh_setup) by extension 'colcon_pkg'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_zenoh_setup) by extensions ['colcon_meta']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_zenoh_setup) by extension 'colcon_meta'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_zenoh_setup) by extensions ['ros']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(mirte-ros-packages/mirte_zenoh_setup) by extension 'ros'
+[0.193s] DEBUG:colcon.colcon_core.package_identification:Package 'mirte-ros-packages/mirte_zenoh_setup' with type 'ros.ament_cmake' and name 'mirte_zenoh_setup'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2) by extension 'ignore_ament_install'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2) by extensions ['colcon_pkg']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2) by extension 'colcon_pkg'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2) by extensions ['colcon_meta']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2) by extension 'colcon_meta'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2) by extensions ['ros']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2) by extension 'ros'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2) by extensions ['cmake', 'python']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2) by extension 'cmake'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2) by extension 'python'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2) by extensions ['python_setup_py']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2) by extension 'python_setup_py'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/docs) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/docs) by extension 'ignore_ament_install'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/docs) by extensions ['colcon_pkg']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/docs) by extension 'colcon_pkg'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/docs) by extensions ['colcon_meta']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/docs) by extension 'colcon_meta'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/docs) by extensions ['ros']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/docs) by extension 'ros'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/docs) by extensions ['cmake', 'python']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/docs) by extension 'cmake'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/docs) by extension 'python'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/docs) by extensions ['python_setup_py']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/docs) by extension 'python_setup_py'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/docs/images) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/docs/images) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/docs/images) by extension 'ignore_ament_install'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/docs/images) by extensions ['colcon_pkg']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/docs/images) by extension 'colcon_pkg'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/docs/images) by extensions ['colcon_meta']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/docs/images) by extension 'colcon_meta'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/docs/images) by extensions ['ros']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/docs/images) by extension 'ros'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/docs/images) by extensions ['cmake', 'python']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/docs/images) by extension 'cmake'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/docs/images) by extension 'python'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/docs/images) by extensions ['python_setup_py']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/docs/images) by extension 'python_setup_py'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/orbbec_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/orbbec_camera) by extension 'ignore'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/orbbec_camera) by extension 'ignore_ament_install'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/orbbec_camera) by extensions ['colcon_pkg']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/orbbec_camera) by extension 'colcon_pkg'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/orbbec_camera) by extensions ['colcon_meta']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/orbbec_camera) by extension 'colcon_meta'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/orbbec_camera) by extensions ['ros']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/orbbec_camera) by extension 'ros'
+[0.197s] DEBUG:colcon.colcon_core.package_identification:Package 'orbbecsdk_ros2/orbbec_camera' with type 'ros.ament_cmake' and name 'orbbec_camera'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/orbbec_camera_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/orbbec_camera_msgs) by extension 'ignore'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/orbbec_camera_msgs) by extension 'ignore_ament_install'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/orbbec_camera_msgs) by extensions ['colcon_pkg']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/orbbec_camera_msgs) by extension 'colcon_pkg'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/orbbec_camera_msgs) by extensions ['colcon_meta']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/orbbec_camera_msgs) by extension 'colcon_meta'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/orbbec_camera_msgs) by extensions ['ros']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/orbbec_camera_msgs) by extension 'ros'
+[0.198s] DEBUG:colcon.colcon_core.package_identification:Package 'orbbecsdk_ros2/orbbec_camera_msgs' with type 'ros.ament_cmake' and name 'orbbec_camera_msgs'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/orbbec_description) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/orbbec_description) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/orbbec_description) by extension 'ignore_ament_install'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/orbbec_description) by extensions ['colcon_pkg']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/orbbec_description) by extension 'colcon_pkg'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/orbbec_description) by extensions ['colcon_meta']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/orbbec_description) by extension 'colcon_meta'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/orbbec_description) by extensions ['ros']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(orbbecsdk_ros2/orbbec_description) by extension 'ros'
+[0.199s] DEBUG:colcon.colcon_core.package_identification:Package 'orbbecsdk_ros2/orbbec_description' with type 'ros.ament_cmake' and name 'orbbec_description'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_astra_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_astra_camera) by extension 'ignore'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_astra_camera) by extension 'ignore_ament_install'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_astra_camera) by extensions ['colcon_pkg']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_astra_camera) by extension 'colcon_pkg'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_astra_camera) by extensions ['colcon_meta']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_astra_camera) by extension 'colcon_meta'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_astra_camera) by extensions ['ros']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_astra_camera) by extension 'ros'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_astra_camera) by extensions ['cmake', 'python']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_astra_camera) by extension 'cmake'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_astra_camera) by extension 'python'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_astra_camera) by extensions ['python_setup_py']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_astra_camera) by extension 'python_setup_py'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_astra_camera/astra_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_astra_camera/astra_camera) by extension 'ignore'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_astra_camera/astra_camera) by extension 'ignore_ament_install'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_astra_camera/astra_camera) by extensions ['colcon_pkg']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_astra_camera/astra_camera) by extension 'colcon_pkg'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_astra_camera/astra_camera) by extensions ['colcon_meta']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_astra_camera/astra_camera) by extension 'colcon_meta'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_astra_camera/astra_camera) by extensions ['ros']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_astra_camera/astra_camera) by extension 'ros'
+[0.202s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_astra_camera/astra_camera' with type 'ros.ament_cmake' and name 'astra_camera'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_astra_camera/astra_camera_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_astra_camera/astra_camera_msgs) by extension 'ignore'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_astra_camera/astra_camera_msgs) by extension 'ignore_ament_install'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_astra_camera/astra_camera_msgs) by extensions ['colcon_pkg']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_astra_camera/astra_camera_msgs) by extension 'colcon_pkg'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_astra_camera/astra_camera_msgs) by extensions ['colcon_meta']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_astra_camera/astra_camera_msgs) by extension 'colcon_meta'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_astra_camera/astra_camera_msgs) by extensions ['ros']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_astra_camera/astra_camera_msgs) by extension 'ros'
+[0.203s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_astra_camera/astra_camera_msgs' with type 'ros.ament_cmake' and name 'astra_camera_msgs'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(usb_cam) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(usb_cam) by extension 'ignore'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(usb_cam) by extension 'ignore_ament_install'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(usb_cam) by extensions ['colcon_pkg']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(usb_cam) by extension 'colcon_pkg'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(usb_cam) by extensions ['colcon_meta']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(usb_cam) by extension 'colcon_meta'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(usb_cam) by extensions ['ros']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(usb_cam) by extension 'ros'
+[0.205s] DEBUG:colcon.colcon_core.package_identification:Package 'usb_cam' with type 'ros.ament_cmake' and name 'usb_cam'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(web_video_server) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(web_video_server) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(web_video_server) by extension 'ignore_ament_install'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(web_video_server) by extensions ['colcon_pkg']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(web_video_server) by extension 'colcon_pkg'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(web_video_server) by extensions ['colcon_meta']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(web_video_server) by extension 'colcon_meta'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(web_video_server) by extensions ['ros']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(web_video_server) by extension 'ros'
+[0.206s] DEBUG:colcon.colcon_core.package_identification:Package 'web_video_server' with type 'ros.ament_cmake' and name 'web_video_server'
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.225s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'astra_camera_msgs' in 'ros2_astra_camera/astra_camera_msgs'
+[0.225s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'libuvc' in 'libuvc'
+[0.225s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mirte_base_control' in 'mirte-ros-packages/mirte_control/mirte_master_base_control'
+[0.225s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mirte_control' in 'mirte-ros-packages/mirte_control/mirte_pioneer_control'
+[0.225s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mirte_fastdds_discovery_setup' in 'mirte-ros-packages/mirte_fastdds_discovery_setup'
+[0.225s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mirte_master_description' in 'mirte-ros-packages/mirte_description/mirte_master_description'
+[0.225s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mirte_pioneer_description' in 'mirte-ros-packages/mirte_description/mirte_pioneer_description'
+[0.225s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mirte_test' in 'mirte-ros-packages/mirte_test'
+[0.225s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mirte_zenoh_setup' in 'mirte-ros-packages/mirte_zenoh_setup'
+[0.225s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'orbbec_camera_msgs' in 'orbbecsdk_ros2/orbbec_camera_msgs'
+[0.225s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'orbbec_description' in 'orbbecsdk_ros2/orbbec_description'
+[0.225s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'usb_cam' in 'usb_cam'
+[0.225s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'web_video_server' in 'web_video_server'
+[0.225s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mirte_bringup' in 'mirte-ros-packages/mirte_bringup'
+[0.225s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mirte_master_arm_control' in 'mirte-ros-packages/mirte_control/mirte_master_arm_control'
+[0.225s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mirte_moveit_config' in 'mirte-ros-packages/mirte_moveit_config'
+[0.225s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'orbbec_camera' in 'orbbecsdk_ros2/orbbec_camera'

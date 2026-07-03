@@ -1,0 +1,4 @@
+Invoking command in '/home/mirte/mirte_ws/build/mirte_zenoh_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mirte/mirte_ws/install/mirte_test:/opt/ros/humble /usr/bin/cmake --build /home/mirte/mirte_ws/build/mirte_zenoh_setup -- -j4 -l4
+Invoked command in '/home/mirte/mirte_ws/build/mirte_zenoh_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mirte/mirte_ws/install/mirte_test:/opt/ros/humble /usr/bin/cmake --build /home/mirte/mirte_ws/build/mirte_zenoh_setup -- -j4 -l4
+Invoking command in '/home/mirte/mirte_ws/build/mirte_zenoh_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mirte/mirte_ws/install/mirte_test:/opt/ros/humble /usr/bin/cmake --install /home/mirte/mirte_ws/build/mirte_zenoh_setup
+Invoked command in '/home/mirte/mirte_ws/build/mirte_zenoh_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mirte/mirte_ws/install/mirte_test:/opt/ros/humble /usr/bin/cmake --install /home/mirte/mirte_ws/build/mirte_zenoh_setup

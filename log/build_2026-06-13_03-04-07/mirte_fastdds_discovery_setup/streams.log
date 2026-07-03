@@ -1,0 +1,26 @@
+[0.014s] Invoking command in '/home/mirte/mirte_ws/build/mirte_fastdds_discovery_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mirte/mirte_ws/install/mirte_test:/opt/ros/humble /usr/bin/cmake --build /home/mirte/mirte_ws/build/mirte_fastdds_discovery_setup -- -j4 -l4
+[0.025s] gmake: the '-j' option requires a positive integer argument
+[0.052s] Invoked command in '/home/mirte/mirte_ws/build/mirte_fastdds_discovery_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mirte/mirte_ws/install/mirte_test:/opt/ros/humble /usr/bin/cmake --build /home/mirte/mirte_ws/build/mirte_fastdds_discovery_setup -- -j4 -l4
+[0.052s] Invoking command in '/home/mirte/mirte_ws/build/mirte_fastdds_discovery_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mirte/mirte_ws/install/mirte_test:/opt/ros/humble /usr/bin/cmake --install /home/mirte/mirte_ws/build/mirte_fastdds_discovery_setup
+[0.058s] -- Install configuration: "Release"
+[0.062s] -- Execute custom install script
+[0.062s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_fastdds_discovery_setup/share/mirte_fastdds_discovery_setup/environment/mirte_fastdds_discovery_setup.sh
+[0.062s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_fastdds_discovery_setup/share/mirte_fastdds_discovery_setup//config/super_client_config.xml
+[0.062s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_fastdds_discovery_setup/share/mirte_fastdds_discovery_setup//config/super_client_config.xml.in
+[0.062s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_fastdds_discovery_setup/share/ament_index/resource_index/package_run_dependencies/mirte_fastdds_discovery_setup
+[0.062s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_fastdds_discovery_setup/share/ament_index/resource_index/parent_prefix_path/mirte_fastdds_discovery_setup
+[0.062s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_fastdds_discovery_setup/share/mirte_fastdds_discovery_setup/environment/ament_prefix_path.sh
+[0.062s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_fastdds_discovery_setup/share/mirte_fastdds_discovery_setup/environment/ament_prefix_path.dsv
+[0.062s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_fastdds_discovery_setup/share/mirte_fastdds_discovery_setup/environment/path.sh
+[0.062s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_fastdds_discovery_setup/share/mirte_fastdds_discovery_setup/environment/path.dsv
+[0.062s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_fastdds_discovery_setup/share/mirte_fastdds_discovery_setup/local_setup.bash
+[0.062s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_fastdds_discovery_setup/share/mirte_fastdds_discovery_setup/local_setup.sh
+[0.062s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_fastdds_discovery_setup/share/mirte_fastdds_discovery_setup/local_setup.zsh
+[0.062s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_fastdds_discovery_setup/share/mirte_fastdds_discovery_setup/local_setup.dsv
+[0.063s] -- Symlinking: /home/mirte/mirte_ws/install/mirte_fastdds_discovery_setup/share/mirte_fastdds_discovery_setup/package.dsv
+[0.075s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_fastdds_discovery_setup/share/ament_index/resource_index/packages/mirte_fastdds_discovery_setup
+[0.075s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_fastdds_discovery_setup/share/mirte_fastdds_discovery_setup/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.076s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_fastdds_discovery_setup/share/mirte_fastdds_discovery_setup/cmake/mirte_fastdds_discovery_setupConfig.cmake
+[0.076s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_fastdds_discovery_setup/share/mirte_fastdds_discovery_setup/cmake/mirte_fastdds_discovery_setupConfig-version.cmake
+[0.076s] -- Up-to-date symlink: /home/mirte/mirte_ws/install/mirte_fastdds_discovery_setup/share/mirte_fastdds_discovery_setup/package.xml
+[0.076s] Invoked command in '/home/mirte/mirte_ws/build/mirte_fastdds_discovery_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mirte/mirte_ws/install/mirte_test:/opt/ros/humble /usr/bin/cmake --install /home/mirte/mirte_ws/build/mirte_fastdds_discovery_setup

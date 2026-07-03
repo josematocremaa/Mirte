@@ -1,0 +1,1 @@
+/home/mirte/mirte_ws/build/mirte_fastdds_discovery_setup/ament_cmake_environment_hooks/local_setup.zsh

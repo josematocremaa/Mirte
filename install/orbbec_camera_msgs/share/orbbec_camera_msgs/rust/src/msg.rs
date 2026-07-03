@@ -1,0 +1,1 @@
+/home/mirte/mirte_ws/build/orbbec_camera_msgs/rosidl_generator_rs/orbbec_camera_msgs/rust/src/msg.rs
