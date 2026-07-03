@@ -39,7 +39,7 @@ class SymbolicNode(Node):
         # Subscribe to 3D detections from YOLO
         self.subscription = self.create_subscription(
             DetectionArray,
-            '/yolo/detections_3d',
+            '/yolo/detections',
             self.detections_callback,
             10
         )
