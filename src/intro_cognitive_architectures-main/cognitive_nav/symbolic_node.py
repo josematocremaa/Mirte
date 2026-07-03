@@ -149,8 +149,16 @@ class SymbolicNode(Node):
                 self.onto.Bedroom,
                 self.onto.Kitchen,
                 self.onto.DiningRoom,
+                self.onto.LectureRoom,
+                self.onto.LivingRoomSSER,
             )
         ]
+
+        if not inferred_rooms:
+            self.get_logger().warn(
+                "Unable to infer the current room."
+            )
+            return
 
         for room in inferred_rooms:
 
@@ -161,12 +169,6 @@ class SymbolicNode(Node):
 
             self.get_logger().info(
                 f"Published room hypotheses: {room}"
-            )
-
-        else:
-
-            self.get_logger().warn(
-                "Unable to infer the current room."
             )
 
 
