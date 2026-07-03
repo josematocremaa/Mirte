@@ -20,6 +20,7 @@ ROOM_TO_TARGET_LABEL = {
 # States
 IDLE = "IDLE"
 SEARCHING = "SEARCHING"
+SPINNING = "SPINNING"
 APPROACHING = "APPROACHING"
 ARRIVED = "ARRIVED"
 
@@ -41,6 +42,7 @@ class ReactiveApproachNode(Node):
         self.declare_parameter("max_detection_distance", 4.0) # m
         self.declare_parameter("laser_yaw_offset", 0.0)       # rad, lidar vs base mounting
         self.declare_parameter("lost_timeout", 1.5)           # s before giving up detection
+        self.declare_parameter("spin_speed", 0.6)             # rad/s, 360-deg spin on detection
 
         self.p = lambda n: self.get_parameter(n).value
 
@@ -50,6 +52,7 @@ class ReactiveApproachNode(Node):
         self.target_label = None
         self.last_target = None          # (angle, distance) in base frame
         self.last_seen_time = None
+        self.spin_start_time = None      # set when a 360-deg spin begins
         self.latest_scan = None
 
         # --- I/O ----------------------------------------------------------
@@ -85,7 +88,7 @@ class ReactiveApproachNode(Node):
         self.latest_scan = msg
 
     def detections_callback(self, msg: DetectionArray):
-        if self.state not in (SEARCHING, APPROACHING):
+        if self.state not in (SEARCHING, SPINNING, APPROACHING):
             return
 
         best = None
@@ -111,14 +114,32 @@ class ReactiveApproachNode(Node):
         self.last_seen_time = self.get_clock().now()
 
         if self.state == SEARCHING:
-            self.state = APPROACHING
-            self.publish_status(f"Object spotted, approaching {self.target_room}")
+            self.state = SPINNING
+            self.spin_start_time = self.get_clock().now()
+            self.publish_status(f"Detected {self.target_label}, spinning 360")
 
     # ------------------------------------------------------------------ #
     def control_loop(self):
         if self.state == SEARCHING:
             twist = Twist()
             twist.angular.z = self.p("search_angular_speed")
+            self.cmd_vel_pub.publish(twist)
+            return
+
+        # Full 360-degree turn triggered on detection.
+        if self.state == SPINNING:
+            spin_speed = self.p("spin_speed")
+            elapsed = (self.get_clock().now()
+                       - self.spin_start_time).nanoseconds / 1e9
+            # commanded angle = speed * time; one full revolution == 2*pi
+            if elapsed * abs(spin_speed) >= 2.0 * math.pi:
+                self.cmd_vel_pub.publish(Twist())          # stop the spin
+                self.last_seen_time = self.get_clock().now()  # avoid instant "lost"
+                self.state = APPROACHING
+                self.publish_status(f"Spin complete, approaching {self.target_room}")
+                return
+            twist = Twist()
+            twist.angular.z = spin_speed
             self.cmd_vel_pub.publish(twist)
             return
 
