@@ -26,6 +26,7 @@ setup(
             'symbolic_node = cognitive_nav.symbolic_node:main',
             'knowledge_management_node = cognitive_nav.knowledge_management_node:main',
             'goal_manager_node = cognitive_nav.goal_manager_node:main',
+            'object_nav_node = cognitive_nav.object_nav_node:main',
         ],
     },
 )
