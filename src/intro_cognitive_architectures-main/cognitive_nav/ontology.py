@@ -66,8 +66,8 @@ def load_ontology():
         class LectureRoom(Room):
             pass
 
-        # class LivingRoom(Room):
-        #     pass
+        class LivingRoomSSER(Room):
+            pass
 
 
         # Classification rules
@@ -110,17 +110,17 @@ def load_ontology():
             )
         )
 
-        # LivingRoom.equivalent_to.append(
-        #     Room
-        #     & (
-        #         (
-        #             contains.some(DiningTable)
-        #             & contains.some(Chair)
-        #             & contains.some(PottedPlant)
-        #         )
-        #         | contains.some(Sofa)
-        #         | contains.some(Microwave)
-        #     )
-        # )
+        LivingRoomSSER.equivalent_to.append(
+            Room
+            & (
+                (
+                    contains.some(DiningTable)
+                    & contains.some(Chair)
+                    & contains.some(PottedPlant)
+                )
+                | contains.some(Sofa)
+                | contains.some(Microwave)
+            )
+        )
 
     return onto
