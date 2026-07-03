@@ -13,10 +13,8 @@ from yolo_msgs.msg import DetectionArray
 # Object that uniquely identifies each room (raw YOLO class names).
 # ---------------------------------------------------------------------------
 ROOM_TO_TARGET_LABEL = {
-    "Kitchen":    "refrigerator",
-    "Bedroom":    "bed",
-    "LivingRoom": "tv",
-    "DiningRoom": "dining table",
+    "LeavingRoom": "backpack",
+    "DiningRoom": "potted plant",
 }
 
 # States
