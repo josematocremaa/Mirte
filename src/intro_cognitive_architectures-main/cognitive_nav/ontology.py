@@ -116,7 +116,7 @@ def load_ontology():
                 #     contains.some(DiningTable)
                 #     & contains.some(Chair)
                 # )
-                 contains.some(PottedPlant)
+                contains.some(PottedPlant)
                 # | contains.some(Sofa)
                 # | contains.some(Microwave)
             )
