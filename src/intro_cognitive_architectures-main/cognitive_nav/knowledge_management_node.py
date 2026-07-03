@@ -19,6 +19,8 @@ class KnowledgeManagementNode(Node):
             "Bedroom": 0.0,
             "Kitchen": 0.0,
             "DiningRoom": 0.0,
+            "LectureRoom": 0.0,
+            "LivingRoomSSER": 0.0,
         }
 
         # Subscribe to symbolic room inference
