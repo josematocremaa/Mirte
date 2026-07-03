@@ -101,25 +101,24 @@ def load_ontology():
         LectureRoom.equivalent_to.append(
             Room
             & (
-                (
-                    contains.some(DiningTable)
-                    & contains.some(Chair)
-                    & contains.some(Backpack)
-                )
-                | contains.some(TV)
+                # (
+                #     contains.some(DiningTable)
+                #     & contains.some(Chair)
+                # )
+                contains.some(Backpack)
             )
         )
 
         LivingRoomSSER.equivalent_to.append(
             Room
             & (
-                (
-                    contains.some(DiningTable)
-                    & contains.some(Chair)
-                    & contains.some(PottedPlant)
-                )
-                | contains.some(Sofa)
-                | contains.some(Microwave)
+                # (
+                #     contains.some(DiningTable)
+                #     & contains.some(Chair)
+                # )
+                 contains.some(PottedPlant)
+                # | contains.some(Sofa)
+                # | contains.some(Microwave)
             )
         )
 

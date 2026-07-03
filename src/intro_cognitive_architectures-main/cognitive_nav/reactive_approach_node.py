@@ -57,7 +57,7 @@ class ReactiveApproachNode(Node):
         # --- I/O ----------------------------------------------------------
         self.create_subscription(String, "/navigation/goal_room",
                                  self.goal_room_callback, 10)
-        self.create_subscription(DetectionArray, "/yolo/detections_3d",
+        self.create_subscription(DetectionArray, "/yolo/detections",
                                  self.detections_callback, 10)
         self.create_subscription(LaserScan, "/scan",
                                  self.scan_callback, 10)
